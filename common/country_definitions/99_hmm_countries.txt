@@ -1,0 +1,11 @@
+﻿
+Y19= { 
+	color = { 90 205 112 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { yenkee } 
+	capital = STATE_ARIZONA
+}
