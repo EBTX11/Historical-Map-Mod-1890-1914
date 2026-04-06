@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:MAL	= {
 		effect_starting_technology_1922_tech_minor = yes
 		
@@ -14,5 +14,19 @@ COUNTRIES = {
 		ig:ig_devout = {
 			set_interest_group_name = ig_sunni_madrasahs
 		}
+	
+		activate_law = law_type:law_laissez_faire
+	
+		activate_law = law_type:law_protectionism
+	
+		activate_law = law_type:law_autocracy
+	
+        create_character = {
+            first_name = ""
+            last_name = ""
+            birth_date = 1800.1.1
+            ruler = yes
+            interest_group = 
+        }
 	}
 }

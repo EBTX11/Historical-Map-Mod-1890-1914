@@ -1564,7 +1564,7 @@ ZIM = {
 }
 
 MAL = {
-	color = { 75 179 27}
+	color = { 75 179 27 }
 	country_type = colonial
 	tier = kingdom
 	cultures = { bambara fulbe wolof mande }
