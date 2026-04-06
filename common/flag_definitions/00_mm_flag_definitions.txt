@@ -578,8 +578,7 @@ INJECT:ZIM = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}  
-} 
- 
+}  
 STN = { 
 	flag_definition = {
 	    coa = STN		
