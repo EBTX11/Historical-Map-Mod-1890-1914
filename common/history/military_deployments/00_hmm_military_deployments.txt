@@ -1,0 +1,57 @@
+﻿MILITARY_DEPLOYMENTS = { 
+	c:JAP ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x880F26.front
+		}
+	}
+ 
+
+	
+	c:SER ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xAC083C.front
+		}
+	}
+	c:MON ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x446E84.front
+		}
+	}
+	c:GRE ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x80D060.front
+		}
+	}
+	c:BUL ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x7121A0.front
+		}
+	}
+
+
+
+	
+	c:GBR ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x06DF39.front
+		}
+	}
+	c:EGY ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x06DF39.front
+		}
+	}
+	c:ITA ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xCB3322.front
+		}
+	}
+} 

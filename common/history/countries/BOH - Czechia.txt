@@ -1,9 +1,7 @@
 COUNTRIES = {
 	c:BOH = {
-		effect_starting_technology_tier_2_tech = yes
-
+        effect_starting_technology_tier_2_tech = yes
 		set_tax_level = medium
-
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
@@ -17,12 +15,10 @@ COUNTRIES = {
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_per_capita_based_taxation
-
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
 		}
-		
 		# Geheime Staatskonferenz
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
@@ -33,7 +29,6 @@ COUNTRIES = {
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
-		
 		ig:ig_devout = { 
 			set_interest_group_name = ig_catholic_church 
 		}

@@ -1,3 +1,26 @@
+﻿
+INJECT:MCH = { 
+	dynamic_country_name = {
+		name = dyn_c_MCH_01
+		adjective = MCH_ADJ
+
+		is_main_tag_only = yes
+		priority = 5 
+
+		trigger = {
+			has_game_rule = historical_map_mod_enabled
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:MCH
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+} 
+
 INJECT:HUN = {
 	dynamic_country_name = {
 		name = dyn_c_hungary-austria
@@ -73,8 +96,7 @@ INJECT:CHI = {
 	dynamic_country_name = {
 		name = dyn_c_Republic_of_China
 		adjective = CHI_ADJ
-
-
+ 
 		is_main_tag_only = yes
 		priority = 2
 		
@@ -82,6 +104,7 @@ INJECT:CHI = {
 			scope:actor = {
 				OR = {
 					has_law = law_type:law_parliamentary_republic
+					has_law = law_type:law_presidential_republic
 				}
 			}
 		}
@@ -156,6 +179,7 @@ DAI = {
 		}
 	}
 }
+
 INJECT:SAF = { # South Africa
 	dynamic_country_name = {
 		name = dyn_c_Union_of_South_Africa
@@ -186,11 +210,18 @@ INJECT:SUD = {
 		
 		trigger = {
 			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:SUD
-					type = dominion
-					is_initiator = yes
+			c:GBR = { 
+				or = { 
+					has_diplomatic_pact = {
+						who = c:SUD
+						type = dominion
+						is_initiator = yes
+					}
+					has_diplomatic_pact = {
+						who = c:SUD
+						type = colony
+						is_initiator = yes
+					}
 				}
 			}
 		}
@@ -370,6 +401,24 @@ TCO = {
 				has_diplomatic_pact = {
 					who = c:TCO
 					type = personal_union #colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_Belgian_Congo
+		adjective = TCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:BEL
+			c:BEL = {
+				has_diplomatic_pact = {
+					who = c:TCO
+					type = colony
 					is_initiator = yes
 				}
 			}

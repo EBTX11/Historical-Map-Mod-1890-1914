@@ -1113,7 +1113,7 @@
 				size = 100000
 			}
 		}
-		region_state:CHI = {
+		region_state:Y44 = {
 			create_pop = {
 				culture = tibetan
 				size = 1720000
@@ -1160,7 +1160,7 @@
 		}
 	}
 	s:STATE_EASTERN_HIMALAYAS = {
-		region_state:CHI = {
+		region_state:Y44 = {
 			create_pop = {
 				culture = naga
 				size = 20102

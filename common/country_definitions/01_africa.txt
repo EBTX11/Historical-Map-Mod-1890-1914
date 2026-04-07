@@ -46,7 +46,7 @@ ETH = {
 }
 
 MAD = {
-	color = { 117  150  120 }
+	color = { 117 150 120 }
 
 	country_type = colonial
 
@@ -1559,7 +1559,7 @@ ZIM = {
 
 	tier = kingdom
 
-	cultures = { shona nguni}
+	cultures = { shona nguni }
 	capital = STATE_ZAMBEZIA
 }
 

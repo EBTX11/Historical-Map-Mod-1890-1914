@@ -1,13 +1,11 @@
 ﻿COUNTRIES = {
 	c:CHI ?= {
-		effect_starting_technology_tier_4_tech = yes
+        effect_starting_technology_tier_3_tech_hmm = yes
 		add_technology_researched = urban_planning
 		add_technology_researched = sericulture
 		add_technology_researched = academia
 		add_technology_researched = law_enforcement
-		
 		set_market_capital = STATE_GUANGDONG	
-		
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_serfdom
@@ -17,19 +15,13 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship	
 		activate_law = law_type:law_closed_borders
-		activate_law = law_type:law_canton_system
+		activate_law = law_type:law_free_trade #law_canton_system
 		activate_law = law_type:law_freedom_of_conscience
-
 		set_tax_level = low
-
-		set_variable = {
-			name = china_warlord_explosion
-			value = 0
+		#add_journal_entry = { type = je_warlord_china }
+		#add_journal_entry = { type = je_taiping }
+		add_modifier = {
+			name = opium_wars_lost 
 		}
-		set_import_tariff_level = { 
-			goods = g:opium
-			level = no_tariffs_or_subventions
-		}
-		add_journal_entry = { type = je_warlord_china }
-	}
+	}  
 }

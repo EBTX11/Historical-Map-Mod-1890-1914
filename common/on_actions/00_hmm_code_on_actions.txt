@@ -1,0 +1,56 @@
+﻿on_wargoal_enforced = {
+	effect = {
+		if = {
+			limit = { 
+				exists = c:GRE 
+				#exists = c:TUR
+				exists = c:BUL
+				# c:GRE = {  
+				# 	owns_entire_state_region = STATE_MACEDONIA  
+				# 	#has_truce_with = c:TUR  
+				# } 
+				c:BUL = {  
+					owns_entire_state_region = STATE_WESTERN_THRACE 
+					#has_truce_with = c:TUR  
+				} 
+			}   
+			s:STATE_WESTERN_THRACE = {
+				set_owner_of_provinces = {
+					country = c:GRE
+					provinces = { xEDECFB x702020 xB2249C }
+				}  
+			} 
+		} 
+		if = {
+			limit = {  
+				exists = c:SEY
+				c:EGY = {   
+					owns_entire_state_region = STATE_EGYPTIAN_DESERT  
+					#has_truce_with = c:SEY   
+				}   
+			}    
+			s:STATE_LIBYAN_DESERT = {
+				set_owner_of_provinces = {
+					country = c:EGY
+					provinces = { xD1DDAF xC11122 xDEF5CF x29E247 xA5C57A x39A829 x180269 xAD746A xDCBC26 x73B161 xDB1CEA x28A6A1 x799B7E xA79085 x2C08E8 x0008B1 xF1D2C1 x3572F7 x6890D4 x6794AD x3E00B9 x093E94 x61F166 x0BD921 xE799AA x550DB9 xB46A16 x68430F x231277 x7B0D2E x95E863 xB93A62 x47B014 x6F8DE9 xE39CED x152867 x6B2BEF x79DCF4 x2B96BF xC6DA6A xA519D6 xF00DCD x48316F x9953AB x8B21BC x0F16C7 x53ECCE x56AEEC x395873 x9F22F2 x164ED1 xD1395D x475810 x1BE626 x991766 x662644 x27737E xE51BCB x90D060 xDBD075 x3E5E19 x4588F1 x9F6FBD x017863 x72A54B xCF807F xC5601C x8F71C6 x148330 xC75D31 x8DAD0A xEBD8DF xC88B2A x4EF9F0 x372EB1 x8C8E28 xBCDCC0 x371B26 x1A8994 x2129BE xFAB14C x78D114 xF9980E xC0E7D7 x099FFF x144435 x3BF817 x29E30B x2A53E1 x61A415 x165542 x0198EA xE6081F x4E6542 x950042 xAB9F90 xC1CA86 x11A0DD xA09020 x3D9D25 xF46E3D x14F1BF x91EB7D x874CD9 x6C635A x650312 x0BD882 xB10316 }
+				}  
+			}  
+		}  
+		if = {
+			limit = {  
+				exists = c:SEY
+				c:SEY = {   
+					has_truce_with = c:GBR   
+				}   
+				c:EGY = {   
+					owns_entire_state_region = STATE_EGYPTIAN_DESERT  
+					#has_truce_with = c:SEY   
+				}   
+			}     
+			c:SEY = { 
+				set_country_type = decentralized
+				change_tag = SHR
+			}  
+		} 
+	}
+}

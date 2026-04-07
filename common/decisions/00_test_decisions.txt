@@ -1,0 +1,197 @@
+﻿##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+#############################################OPEN GENERAL TEST############################################################
+
+Open_Test_Decision = {
+	is_shown = {
+		NOT = { has_variable = openTestDecision_variable }
+	}
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = openTestDecision_variable
+	}
+}
+Close_Test_Decison = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = openTestDecision_variable
+	}
+}
+
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+#############################################TEST CHOISE#################################################################
+
+Test_event_1 = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+		
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    }
+
+	when_taken = {    
+		if = {
+			limit = { 
+				exists = c:SEY
+				this = c:SEY 
+				has_truce_with = c:GBR   
+				c:SEY = {  
+					NOT = {  
+						has_state_in_state_region = STATE_EGYPTIAN_DESERT 
+					}   
+				} 
+			}    
+			s:STATE_LIBYAN_DESERT = {
+				set_owner_of_provinces = {
+					country = c:EGY
+					provinces = { x60A81D xF9980E xC5601C x8F71C6 x148330 xC75D31 xC11122 xCF807F x180269 xA5C57A x6ED70F xDEF5CF xAD746A x099FFF x29E247 x39A829 x144435 xDCBC26 x73B161 xDB1CEA x28A6A1 x827DC0 x799B7E xA79085 x2C08E8 x0198EA x0008B1 xF1D2C1 x3572F7 x6890D4 x0A58C9 x6794AD x3E00B9 x093E94 x61F166 x0BD921 xE799AA x3BF817 x550DB9 xB46A16 x68430F x29E30B x231277 x7B0D2E x95E863 xB93A62 x2A53E1 x47B014 x6F8DE9 xE39CED x152867 x6B2BEF x79DCF4 xE6081F x2B96BF x61A415 xC6DA6A xA519D6 xF00DCD x4E6542 x0F16C7 x48316F x9953AB x8B21BC x53ECCE x56AEEC x395873 x165542 x9F22F2 x164ED1 xD1395D x662644 x950042 x475810 x1BE626 x991766 x27737E xE51BCB x90D060 xDBD075 xAB9F90 x3E5E19 x4588F1 x9F6FBD x650312 x017863 x72A54B xFAB14C x2129BE x8C8E28 x1A8994 xC88B2A x372EB1 x4EF9F0 xEBD8DF xF2B6E0 x5E16B6 x6A6A85 xC1CA86 x3D9D25 x14F1BF x11A0DD xF46E3D x91EB7D x874CD9 xA09020 x6C635A x81B59F x057978 x0BD882 x485A40 x371B26 x8DAD0A xC0E7D7 xCFEDA1 x78D114 xBCDCC0 xB10316 }
+				}  
+			}
+			c:SEY = { 
+				set_country_type = decentralized
+				change_tag = SHR
+			}  
+		}  
+	}
+}
+
+Test_event_2 = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    } 
+	when_taken = {  
+		
+		every_scope_state = {
+			if = {
+				limit = {
+					has_modifier = central_bank_historic_place
+				}
+				change_variable = {
+					name = gold_state_1
+					add = -10000000
+				} 
+			}
+		}
+	}
+}
+
+Test_event_3 = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+		
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    }
+
+	when_taken = {
+		every_scope_state = {
+			if = {
+				limit = {
+					has_modifier = central_bank_historic_place
+				}
+				change_variable = {
+					name = silver_state_1
+					add = 500000000
+				} 
+			}
+		}
+	}
+}
+
+Test_event_4 = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+		
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    }
+
+	when_taken = {
+		trigger_event = {
+			id = test_2.4
+			days = 0
+			popup = no
+		}
+	}
+}
+
+Test_event_5 = {
+	is_shown = {
+		has_variable = openTestDecision_variable
+		
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		base = 0
+    }
+
+	when_taken = {
+		every_country = { 
+			 		 
+		}
+ 
+		set_global_variable = {
+			name = silver_to_gold_rate_fixe_var_1_1Y
+			value = 0
+		} 
+		set_global_variable = {
+			name = silver_to_gold_rate_var_half_1_year
+			value = 0
+		}
+		set_global_variable = {
+			name = silver_to_gold_rate_var_1_year
+			value = 0
+		}
+		set_global_variable = {
+			name = silver_to_gold_rate_dif_1
+			value = 0
+		} 
+		set_global_variable = {
+			name = global_silver_production_cumulative_production
+			value = 0
+		} 
+	}
+}

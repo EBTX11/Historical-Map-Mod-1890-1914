@@ -1,10 +1,8 @@
 ﻿COUNTRIES = {
 	c:PNI ?= {
+        effect_starting_technology_tier_2_tech = yes
 		set_next_election_date = 1836.9.11 # historical date of secession
-		
-		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_conservative = yes
-
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_slave_trade
@@ -14,7 +12,6 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
-
 		set_import_tariff_level = { 
 			goods = g:artillery
 			level = high_subventions
@@ -23,7 +20,6 @@
 			goods = g:small_arms
 			level = high_subventions
 		}
-
 		set_variable = ragamuffin_nation_var
 		add_journal_entry = { type = ragamuffin_war_minors }
 	}

@@ -1,33 +1,24 @@
 ﻿COUNTRIES = {
 	c:POS = {
-		effect_starting_technology_tier_3_tech = yes
-		
+        effect_starting_technology_tier_2_tech = yes
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_national_supremacy
-		
 		add_journal_entry = {
 			type = je_poland_liberation
 		}
 	}
 	c:CPL = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-
 		add_journal_entry = {
 			type = je_poland_liberation
 		}
 	}
 	c:LIE = {
-		effect_starting_technology_tier_3_tech = yes
-
 	}
 	c:ANR = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_landed_voting
@@ -35,15 +26,10 @@
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_peasant_levies
-
 	}
-
 	c:HHN = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -53,11 +39,8 @@
 		}
 	}
 	c:ALN = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -67,11 +50,8 @@
 		}
 	}
 	c:LAU = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -81,11 +61,8 @@
 		}
 	}
 	c:GRA = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -95,11 +72,8 @@
 		}
 	}
 	c:GRZ = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -109,11 +83,8 @@
 		}
 	}
 	c:SND = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
@@ -123,11 +94,8 @@
 		}
 	}
 	c:LIE = {
-		effect_starting_technology_tier_3_tech = yes
-		
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1

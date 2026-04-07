@@ -1,16 +1,11 @@
 ﻿COUNTRIES = {
 	c:ITA = {
-
+        effect_starting_technology_tier_2_tech_hmm = yes
 		ig:ig_devout = {
 			add_ruling_interest_group = yes
 		}
-		
-		effect_starting_technology_1922_tech_major = yes
-		
 		effect_starting_politics_reactionary = yes
-		
 		set_tax_level = medium
-
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
@@ -24,12 +19,9 @@
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_per_capita_based_taxation
-
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
 		}
-	
         create_character = {
             first_name = ""
             last_name = ""

@@ -52,7 +52,7 @@ RUS = {
 }
 
 FRA = {
-	color = { 20  50  210 }
+	color = { 20 50 210 }
 
 	country_type = recognized
 
@@ -104,7 +104,7 @@ AUS = {
 
 	tier = empire
 
-	cultures = { south_german }
+	cultures = { south_german hungarian }
 	capital = STATE_AUSTRIA
 
 	primary_unit_color = { 211 220 240 }
@@ -2157,7 +2157,8 @@ ATL = {
 }
 
 MEX = {
-	color = { 23 43 25 } 
+	color = { 56 143 53 }
+	#color = { 23 43 25 } 
 
 	country_type = recognized
  

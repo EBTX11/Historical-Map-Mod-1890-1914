@@ -1,0 +1,235 @@
+﻿
+# #1871:
+# guerre des balkan GRE + SER + MON + BUL vs TUR -> pour libnerer albanie sur serbie 
+#Guerre russo japonnaise -> scripter une guerrer qui ce lmance auto plutard 
+#guerre americano espagnoel
+
+#GUerre civil chionoise Republique + jap (don de la corée) VS chi Qing 
+
+
+
+
+DIPLOMATIC_PLAYS = {  
+	c:JAP ?= {
+		create_diplomatic_play = {
+			name = russo_jap_war 
+
+			target_country = c:RUS
+			war = yes
+ 			type = dp_humiliation   
+            add_initiator_backers = { c:Y44 }
+            add_initiator_backers = { c:KOR }
+ 
+			add_war_goal = {
+				holder = c:JAP 
+				type = conquer_state
+				target_country = c:RUS
+				target_state = s:STATE_SAKHALIN.region_state:RUS  
+			}  
+
+			add_war_goal = {
+				holder = c:Y44 
+				type = annex_country
+				target_country = c:MCH 
+			}     
+		}
+	}		 
+	c:CHI ?= {
+		create_diplomatic_play = {
+			name = china_republique 
+
+			target_state = c:Y44.capital 
+			war = yes
+			annex_as_civil_war = yes 
+			type = dp_revolution  
+			 
+			#Y44  
+			add_war_goal = {
+				holder = c:Y44 
+				type = annex_country
+				target_country = c:XIN 
+			}    
+		} 
+	} 	 
+	c:MON ?= {
+
+		#province = p:x71DA2E -> à la fin de al guerre fractionner la trace entre bul et gre si la guerre a etait remporter par la coalission
+ 
+		create_diplomatic_play = {
+			name = balkanique_war
+#
+			war = yes
+			#annex_as_civil_war = yes 
+			type = dp_return_state  
+			 
+			target_country = c:TUR
+			target_state = s:STATE_MONTENEGRO.region_state:TUR  
+ 
+            add_initiator_backers = { c:SER }
+            add_initiator_backers = { c:BUL }
+            add_initiator_backers = { c:GRE }
+            add_initiator_backers = { c:RUS }
+ 
+			#SER  
+			add_war_goal = {
+				holder = c:SER 
+				type = return_state
+				target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+				target_country = c:TUR 
+			}   
+			add_war_goal = {
+				holder = c:SER 
+				type = return_state
+				target_state = s:STATE_KOSOVO.region_state:TUR  
+				target_country = c:TUR 
+			}   
+			add_war_goal = {
+				holder = c:SER 
+				type = return_state
+				target_state = s:STATE_SKOPIA.region_state:TUR  
+				target_country = c:TUR 
+			}    
+			add_war_goal = {
+				holder = c:SER 
+				type = return_state
+				target_state = s:STATE_SKOPIA.region_state:TUR  
+				target_country = c:TUR 
+			} 
+			add_war_goal = {
+				holder = c:SER  
+				type = liberate_country
+				target_country = c:TUR 
+				country_definition = ALB  
+			} 
+
+			#BUL  
+			add_war_goal = {
+				holder = c:BUL 
+				type = return_state
+				target_state = s:STATE_NORTHERN_THRACE.region_state:TUR  
+				target_country = c:TUR 
+			}    
+			add_war_goal = {
+				holder = c:BUL 
+				type = return_state
+				target_state = s:STATE_WESTERN_THRACE.region_state:TUR  
+				target_country = c:TUR 
+			}    
+			#GRE  
+			add_war_goal = {
+				holder = c:GRE 
+				type = return_state #annex_country
+				target_state = s:STATE_MACEDONIA.region_state:TUR  
+				target_country = c:TUR 
+			}     
+			add_war_goal = {
+				holder = c:GRE 
+				type = return_state #annex_country
+				target_state = s:STATE_THESSALIA.region_state:TUR  
+				target_country = c:TUR 
+			}     
+ 
+			#GRE  
+			add_war_goal = {
+				holder = c:TUR 
+				type = annex_country 
+				target_country = c:SER 
+			}      
+			add_war_goal = {
+				holder = c:TUR 
+				type = annex_country 
+				target_country = c:BUL 
+			}     
+			add_war_goal = {
+				holder = c:TUR 
+				type = annex_country 
+				target_country = c:MON 
+			}     
+			add_war_goal = {
+				holder = c:TUR 
+				type = annex_country 
+				target_country = c:GRE 
+			} 
+			 
+			#RUS
+			add_war_goal = {
+				holder = c:RUS 
+				type = humiliation 
+				target_country = c:TUR 
+			}  
+
+
+		} 
+	} 
+ 
+
+	c:EGY ?= { 
+		create_diplomatic_play = {
+			name = egy_sey
+ 
+			war = yes 
+			type = dp_return_state  
+			 
+			target_country = c:SEY
+			target_state = s:STATE_EGYPTIAN_DESERT.region_state:SEY  
+ 
+            add_initiator_backers = { c:GBR }
+            add_initiator_backers = { c:SUD }
+            add_initiator_backers = { c:ITA }
+            add_initiator_backers = { c:TRI }
+            add_initiator_backers = { c:ITC }
+
+			add_war_goal = {
+				holder = c:SUD 
+				type = return_state #annex_country
+				target_state = s:STATE_DONGOLA.region_state:SEY  
+				target_country = c:SEY 
+			}    
+			add_war_goal = {
+				holder = c:SUD 
+				type = return_state #annex_country
+				target_state = s:STATE_DARFUR.region_state:SEY  
+				target_country = c:SEY 
+			}     
+ 
+			add_war_goal = {
+				holder = c:ITC 
+				type = return_state #annex_country
+				target_state = s:STATE_LIBYA.region_state:SEY  
+				target_country = c:SEY 
+			}   
+			add_war_goal = {
+				holder = c:TRI 
+				type = return_state #annex_country
+				target_state = s:STATE_TRIPOLI.region_state:SEY  
+				target_country = c:SEY
+			}  
+ 
+			add_war_goal = {
+				holder = c:SEY 
+				type = annex_country #annex_country
+				#target_state = s:STATE_DARFUR.region_state:SEY  
+				target_country = c:EGY 
+			}  
+			add_war_goal = {
+				holder = c:SEY 
+				type = annex_country #annex_country
+				#target_state = s:STATE_DARFUR.region_state:SEY  
+				target_country = c:SUD 
+			}  
+			add_war_goal = {
+				holder = c:SEY 
+				type = annex_country #annex_country
+				#target_state = s:STATE_DARFUR.region_state:SEY  
+				target_country = c:ITC 
+			}  
+			add_war_goal = {
+				holder = c:SEY 
+				type = annex_country #annex_country
+				#target_state = s:STATE_DARFUR.region_state:SEY  
+				target_country = c:TRI 
+			}  
+
+		}  
+	} 
+}

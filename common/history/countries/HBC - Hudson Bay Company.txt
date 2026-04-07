@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 	c:HBC ?= {
-		effect_starting_technology_tier_2_tech = yes
+        effect_starting_technology_tier_2_tech = yes
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_total_separation
@@ -11,12 +11,10 @@
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_homesteading
-
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 2
 		}
-		
 		add_taxed_goods = g:grain
 	}
 }

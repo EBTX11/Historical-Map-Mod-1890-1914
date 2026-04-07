@@ -1,9 +1,7 @@
 ﻿COUNTRIES = {
 	c:NVS ?= {
+        effect_starting_technology_tier_2_tech = yes
 		# set_next_election_date = ???
-		
-		effect_starting_technology_tier_2_tech = yes
-		
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_religious_schools
@@ -17,11 +15,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_homesteading
-
 		ig:ig_armed_forces ?= {
 			add_ruling_interest_group = yes
 		}
-		
 		add_taxed_goods = g:grain
 	}
 }

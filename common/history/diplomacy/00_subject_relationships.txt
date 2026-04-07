@@ -2,27 +2,17 @@
 	c:JAP = {
 		create_diplomatic_pact = {
 			country = c:KOR
-			type = vassal #puppet
+			type = tributary #protectorate #vassal #puppet
 		}
 	}
 	c:SPA = {
-		create_diplomatic_pact = {
-			country = c:GAB
-			type = colony
-		}
-	}
-	c:USA = {
+		# create_diplomatic_pact = {
+		# 	country = c:GAB
+		# 	type = colony
+		# }
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = dominion #colony #protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:HON
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:NIC
-			type = protectorate
+			type = colony #puppet
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
@@ -33,16 +23,30 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
+			country = c:PCO
+			type = colony #puppet
+		}
+	}
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HON
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NIC
+			type = protectorate
+		}
+		create_diplomatic_pact = {
 			country = c:PNM
 			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:LIB
 			type = colony #protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:PCO
-			type = colony #puppet
 		}
 	}	
 
@@ -59,7 +63,7 @@
     c:BEL = {
 		create_diplomatic_pact = {
 			country = c:TCO
-			type = personal_union
+			type = colony #personal_union
 		}
 	}
     c:AUS = {
@@ -80,6 +84,10 @@
 		create_diplomatic_pact = {
 			country = c:ROM
 			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:MCH
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:POL
@@ -108,7 +116,15 @@
 		create_diplomatic_pact = {
 			country = c:TIB
 			type = vassal
-		}			
+		}		
+		# create_diplomatic_pact = {
+		# 	country = c:MGL
+		# 	type = vassal
+		# }	
+		create_diplomatic_pact = {
+			country = c:XIN
+			type = vassal
+		}		
 	}
 	c:FRA = {
 
@@ -220,6 +236,14 @@
 		}
 
         # colony : 
+		create_diplomatic_pact = {
+			country = c:MLD
+			type = colony #puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BCE
+			type = colony #puppet
+		}
 		create_diplomatic_pact = {
 			country = c:STN
 			type = colony #puppet

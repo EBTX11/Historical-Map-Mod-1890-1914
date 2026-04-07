@@ -1,8 +1,6 @@
 ﻿COUNTRIES = {
 	c:BCE ?= {
-
-		effect_starting_technology_tier_2_tech = yes
-		
+        effect_starting_technology_tier_2_tech = yes
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_tenant_farmers
@@ -14,22 +12,18 @@
 		activate_law = law_type:law_debt_slavery
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_oligarchy
-
 		active_law:lawgroup_citizenship ?= { # Subjecthood
 			add_amendment = {
 				type = amendment_racialized_subjecthood
 				sponsor = PREV.ig:ig_armed_forces
 			}
 		}
-
-		
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
 		}
 		ig:ig_armed_forces ?= {
 			add_ruling_interest_group = yes
 		}
-
 		add_taxed_goods = g:grain
 	}
 }

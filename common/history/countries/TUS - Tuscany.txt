@@ -1,10 +1,8 @@
 ﻿COUNTRIES = {
 	c:TUS ?= {
-		effect_starting_technology_tier_3_tech = yes
-		
+        effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_reactionary = yes
 		activate_law = law_type:law_religious_schools
-		
 		set_import_tariff_level = { 
 			goods = g:artillery
 			level = high_subventions
@@ -13,7 +11,6 @@
 			goods = g:small_arms
 			level = high_subventions
 		}	
-
 		ig:ig_intelligentsia ?= {
 			add_ruling_interest_group = yes
 		}

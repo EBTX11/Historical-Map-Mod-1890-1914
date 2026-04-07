@@ -1,7 +1,6 @@
 ﻿COUNTRIES = {
 	c:BHU ?= {
-		effect_starting_technology_tier_4_tech = yes
-
+        effect_starting_technology_tier_2_tech = yes
 		# representing the Druk Desi ("Thunder Dragon Regent") within the Bhutanese dual system of government
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_oligarchy
@@ -12,7 +11,6 @@
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_right_of_assembly
-		
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
 		}
