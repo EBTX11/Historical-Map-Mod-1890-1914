@@ -54,7 +54,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_opium_plantation" "pm_steam_rail_transport" }
+				activate_production_methods={ "automatic_irrigation_building_opium_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -82,7 +82,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "centrifugal_machine_sugar" "pm_steam_rail_transport" "default_labour" "automatic_irrigation_building_sugar_plantation" }
+				activate_production_methods={ "pm_steam_rail_transport" "centrifugal_machine_sugar" "default_labour" "automatic_irrigation_building_sugar_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
@@ -128,7 +128,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_condensing_engine_pump_building_coal_mine" "pm_no_explosives" "pm_steam_donkey_building_coal_mine" "pm_road_carts" }
+				activate_production_methods={ "pm_road_carts" "pm_no_explosives" "pm_condensing_engine_pump_building_coal_mine" "pm_steam_donkey_building_coal_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -140,7 +140,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:BIC"
-						levels=3
+						levels=2
 						region="STATE_BIHAR"
 					}
 					building={
@@ -185,6 +185,12 @@
 						levels=1
 						region="STATE_BOMBAY"
 					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_LANCASHIRE"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" }
@@ -194,11 +200,11 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=60
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_building_rice_farm" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -405,7 +411,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_condensing_engine_pump_building_iron_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
 			create_building={
 				building="building_steel_mill"
@@ -470,11 +476,33 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=95
+						levels=100
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_rotary_valve_engine_building_arms_industry" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
 			}
 		}
 	}
@@ -580,6 +608,61 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=80
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=50
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
+			}
 		}
 	}
 	s:STATE_EAST_BENGAL={
@@ -589,7 +672,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=89
+						levels=100
 					}
 				}
 				reserves=1
@@ -647,6 +730,28 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
+			}
 		}
 	}
 	s:STATE_ASSAM={
@@ -701,7 +806,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
@@ -716,7 +821,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="building_chemical_plant"
@@ -771,7 +876,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_blister_steel_process" "pm_rotary_valve_engine_building_steel_mill" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_steel_mill" "pm_bessemer_process" }
 			}
 			create_building={
 				building="building_furniture_manufactory"
@@ -792,6 +897,10 @@
 						country="c:BIC"
 						levels=2
 						region="STATE_BOMBAY"
+					}
+					country={
+						country="c:BIC"
+						levels=10
 					}
 				}
 				reserves=1
@@ -833,6 +942,39 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_road_carts" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_automation_disabled" "pm_smoothbores" }
+			}
 		}
 	}
 	s:STATE_DELHI={
@@ -853,7 +995,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=4
+						levels=14
 					}
 					building={
 						type="building_company_madura_mills"
@@ -874,7 +1016,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_rotary_valve_engine_building_arms_industry" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_arms_industry" "pm_muskets" }
 			}
 			create_building={
 				building="building_paper_mill"
@@ -1036,7 +1178,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_blister_steel_process" "pm_rotary_valve_engine_building_steel_mill" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_steel_mill" "pm_bessemer_process" }
 			}
 			create_building={
 				building="building_furniture_manufactory"
@@ -1302,7 +1444,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=57
+						levels=67
 					}
 				}
 				reserves=1
@@ -1312,10 +1454,10 @@
 				building="building_power_plant"
 				add_ownership={
 					building={
-						type="building_power_plant"
-						country="c:BIC"
+						type="building_financial_district"
+						country="c:GBR"
 						levels=1
-						region="STATE_AWADH"
+						region="STATE_HOME_COUNTIES"
 					}
 				}
 				subsidized=yes
@@ -1379,6 +1521,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
 			}
 		}
 	}
@@ -1473,7 +1626,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_sugar_plantation" "centrifugal_machine_sugar" "worker_exploitation_sugar" "pm_steam_rail_transport" }
+				activate_production_methods={ "automatic_irrigation_building_sugar_plantation" "pm_steam_rail_transport" "worker_exploitation_sugar" "centrifugal_machine_sugar" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -1623,7 +1776,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_banana_plantation" "default_labour" "pm_steam_rail_transport" }
+				activate_production_methods={ "default_building_banana_plantation" "pm_steam_rail_transport" "worker_exploitation_banana" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -1799,7 +1952,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=55
+						levels=65
 					}
 				}
 				reserves=1
@@ -1818,6 +1971,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_road_carts" }
 			}
 		}
 	}
@@ -1857,6 +2021,28 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
 		}
 	}
 	s:STATE_MALWA={
@@ -1883,6 +2069,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
 			}
 		}
 	}
@@ -1942,7 +2139,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_rotary_valve_engine_building_arms_industry" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_arms_industry" "pm_muskets" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2127,7 +2324,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_condensing_engine_pump_building_iron_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
 			create_building={
 				building="building_furniture_manufactory"
@@ -2156,6 +2353,10 @@
 						country="c:BIC"
 						levels=1
 						region="STATE_BOMBAY"
+					}
+					country={
+						country="c:BIC"
+						levels=10
 					}
 				}
 				reserves=1
@@ -2205,7 +2406,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_manual_dough_processing" "pm_disabled_canning" "pm_disabled_distillery" "pm_baking_powder" }
+				activate_production_methods={ "pm_baking_powder" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 			create_building={
 				building="building_steel_mill"
@@ -2324,7 +2525,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -2374,7 +2575,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=21
+						levels=31
 					}
 					building={
 						type="building_manor_house"
@@ -2475,7 +2676,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_cotton_plantation" "default_labour" "pm_steam_rail_transport" }
+				activate_production_methods={ "automatic_irrigation_building_cotton_plantation" "default_labour" "pm_road_carts" }
 			}
 			create_building={
 				building="building_chemical_plant"
@@ -2622,6 +2823,17 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_road_carts" }
+			}
 		}
 	}
 	s:STATE_HILL_PUNJAB={
@@ -2637,6 +2849,28 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
 			}
 		}
 	}
@@ -2664,6 +2898,39 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=40
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -2718,12 +2985,6 @@
 				building="building_sulfur_mine"
 				add_ownership={
 					building={
-						type="building_sulfur_mine"
-						country="c:BIC"
-						levels=1
-						region="STATE_SINDH"
-					}
-					building={
 						type="building_financial_district"
 						country="c:BIC"
 						levels=2
@@ -2734,6 +2995,12 @@
 						country="c:BIC"
 						levels=1
 						region="STATE_MYSORE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_EAST_ANGLIA"
 					}
 				}
 				reserves=1
@@ -2800,7 +3067,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_watertube_boiler_building_tooling_workshop" }
 			}
 			create_building={
 				building="building_motor_industry"
@@ -2997,7 +3264,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
@@ -3193,7 +3460,7 @@
 				add_ownership={
 					country={
 						country="c:BCE"
-						levels=15
+						levels=17
 					}
 				}
 				reserves=1
@@ -3259,7 +3526,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_building_rice_farm" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -3572,7 +3839,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "default_labour" "pm_road_carts" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "worker_exploitation_tea" }
 			}
 			create_building={
 				building="building_coffee_plantation"
@@ -3583,7 +3850,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "default_labour" "pm_road_carts" }
+				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "pm_road_carts" "worker_exploitation_coffee" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3620,7 +3887,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_industrial_port" }
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
@@ -3719,7 +3986,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_whaling_ships" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_steam_whaling_ships" "pm_refrigerated_rail_cars_building_whaling_station" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -3779,7 +4046,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steel_passenger_carriages" "pm_early_trains" }
+				activate_production_methods={ "pm_steel_passenger_carriages" "pm_electric_trains" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3790,7 +4057,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_trawlers" "pm_refrigerated_rail_cars_building_fishing_wharf" }
+				activate_production_methods={ "pm_steam_trawlers" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_whaling_station"
@@ -4043,7 +4310,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
@@ -4202,6 +4469,50 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=13
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
+			}
 		}
 	}
 	s:STATE_CIRCARS={
@@ -4214,6 +4525,10 @@
 						country="c:BIC"
 						levels=9
 						region="STATE_BOMBAY"
+					}
+					country={
+						country="c:BIC"
+						levels=10
 					}
 				}
 				reserves=1
@@ -4234,16 +4549,16 @@
 				building="building_iron_mine"
 				add_ownership={
 					building={
-						type="building_iron_mine"
-						country="c:BIC"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-					building={
 						type="building_company_tata"
 						country="c:BIC"
 						levels=1
 						region="STATE_BOMBAY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_LANCASHIRE"
 					}
 				}
 				reserves=1
@@ -4452,7 +4767,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_rail_transport" "default_labour" "automatic_irrigation_building_banana_plantation" }
+				activate_production_methods={ "pm_steam_rail_transport" "automatic_irrigation_building_banana_plantation" "worker_exploitation_banana" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -4636,7 +4951,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=60
+						levels=70
 					}
 				}
 				reserves=1
@@ -4665,6 +4980,17 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
 		}
 	}
 	s:STATE_MYSORE={
@@ -4674,7 +5000,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=1
+						levels=11
 					}
 					building={
 						type="building_textile_mill"
@@ -4819,7 +5145,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=29
+						levels=49
 					}
 					building={
 						type="building_manor_house"
@@ -4895,7 +5221,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rotary_valve_engine_building_tooling_workshop" "pm_crude_tools" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_tooling_workshop" "pm_steel" }
 			}
 			create_building={
 				building="building_motor_industry"
@@ -5132,7 +5458,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=52
+						levels=61
 					}
 				}
 				reserves=1
@@ -5152,6 +5478,28 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
 		}
 	}
 	s:STATE_TRAVANCORE={
@@ -5161,7 +5509,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=1
+						levels=21
 					}
 					building={
 						type="building_manor_house"
@@ -5239,7 +5587,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
@@ -5398,7 +5746,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_mechanized_workshops" "pm_rotary_valve_engine_building_furniture_manufactory" "pm_no_luxuries" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_no_luxuries" "pm_rotary_valve_engine_building_furniture_manufactory" }
 			}
 			create_building={
 				building="building_steel_mill"
@@ -5444,7 +5792,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=13
+						levels=14
 					}
 				}
 				reserves=1
@@ -5463,6 +5811,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_condensing_engine_pump_building_lead_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
 		}
 	}
@@ -5496,7 +5855,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_industrial_port" }
+				activate_production_methods={ "pm_modern_port" }
 			}
 			create_building={
 				building="building_railway"
@@ -5586,6 +5945,10 @@
 						levels=7
 						region="STATE_MADRAS"
 					}
+					country={
+						country="c:BIC"
+						levels=10
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
@@ -5668,7 +6031,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "coffee_plantation_wet_process_mechanical" "coffee_plantation_mechanical_drying" "default_labour" "pm_steam_rail_transport" }
+				activate_production_methods={ "pm_steam_rail_transport" "coffee_plantation_mechanical_drying" "default_labour" "coffee_plantation_wet_process_manual" }
 			}
 			create_building={
 				building="building_dye_plantation"
@@ -5690,7 +6053,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_tobacco_plantation" "pm_steam_rail_transport" "default_labour_tobacco" "molds" }
+				activate_production_methods={ "molds" "pm_steam_rail_transport" "default_labour_tobacco" "default_building_tobacco_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -5719,7 +6082,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=29
+						levels=39
 					}
 					building={
 						type="building_manor_house"
@@ -5835,7 +6198,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=15
+						levels=25
 					}
 					country={
 						country="c:SOK"
@@ -5959,7 +6322,7 @@
 					building={
 						type="building_financial_district"
 						country="c:BIC"
-						levels=2
+						levels=4
 						region="STATE_BIHAR"
 					}
 					building={
@@ -6081,10 +6444,10 @@
 						levels=1
 					}
 					building={
-						type="building_paper_mill"
-						country="c:BIC"
+						type="building_financial_district"
+						country="c:GBR"
 						levels=1
-						region="STATE_MADRAS"
+						region="STATE_LANCASHIRE"
 					}
 				}
 				reserves=1
@@ -6137,11 +6500,11 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=27
+						levels=32
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_power_plant"
@@ -6154,6 +6517,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=30
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
 			}
 		}
 	}
@@ -6251,11 +6625,11 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+				activate_production_methods={ "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" "pm_soil_enriching_farming_building_rice_farm" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -6529,6 +6903,28 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=30
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+			}
 		}
 	}
 	s:STATE_BOMBAY={
@@ -6546,7 +6942,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_rail_transport" "worker_exploitation_dye" "automatic_irrigation_building_dye_plantation" }
+				activate_production_methods={ "worker_exploitation_dye" "pm_steam_rail_transport" "automatic_irrigation_building_dye_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -6581,7 +6977,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rotary_valve_engine_building_tooling_workshop" "pm_crude_tools" }
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_railway"
@@ -6659,7 +7055,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_complex_shipbuilding" }
+				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -6771,6 +7167,10 @@
 						levels=8
 						region="STATE_BOMBAY"
 					}
+					country={
+						country="c:BIC"
+						levels=10
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_sewing_machines" "pm_mechanized_looms" "pm_craftsman_sewing" }
@@ -6808,11 +7208,11 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=6
+						levels=7
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
+				activate_production_methods={ "pm_power_of_the_purse" }
 			}
 			create_building={
 				building="building_port"
@@ -6841,7 +7241,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=30
+						levels=40
 					}
 				}
 				reserves=1
@@ -6884,7 +7284,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "coffee_plantation_wet_process_mechanical" "coffee_plantation_mechanical_drying" "default_labour" "pm_steam_rail_transport" }
+				activate_production_methods={ "coffee_plantation_wet_process_mechanical" "coffee_plantation_mechanical_drying" "default_labour" "pm_road_carts" }
 			}
 			create_building={
 				building="building_dye_plantation"
@@ -6906,7 +7306,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_sugar_plantation" "centrifugal_machine_sugar" "default_labour" "pm_steam_rail_transport" }
+				activate_production_methods={ "automatic_irrigation_building_sugar_plantation" "centrifugal_machine_sugar" "default_labour" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -6964,6 +7364,12 @@
 						country="c:GBR"
 						levels=1
 						region="STATE_LANCASHIRE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:BIC"
+						levels=1
+						region="STATE_WEST_BENGAL"
 					}
 				}
 				reserves=1
@@ -7036,7 +7442,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=99
+						levels=97
 					}
 				}
 				reserves=1
@@ -7128,6 +7534,17 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
 		}
 		region_state:SIA={
 			create_building={
@@ -7172,7 +7589,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_manual_dough_processing" "pm_disabled_canning" "pm_sweeteners" "pm_pot_stills" }
+				activate_production_methods={ "pm_manual_dough_processing" "pm_disabled_canning" "pm_sweeteners" "pm_disabled_distillery" }
 			}
 			create_building={
 				building="building_tooling_workshop"
@@ -7209,6 +7626,17 @@
 			}
 		}
 		region_state:UMS={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:UMS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
 		}
 	}
 	s:STATE_KACHIN={
@@ -7273,6 +7701,36 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_road_carts" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
 		}
 	}
 	s:STATE_SHAN_STATES={
@@ -7282,7 +7740,7 @@
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=3
+						levels=33
 					}
 				}
 				reserves=1
@@ -7322,6 +7780,42 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_road_carts" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BIC"
+						levels=1
+						region="STATE_BOMBAY"
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
 		}
 	}
 	s:STATE_MANDALAY={
@@ -7360,10 +7854,90 @@
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_dynamite_building_gold_mine" "pm_steam_donkey_mine" "pm_road_carts" }
 			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_road_carts" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
 		}
 	}
 	s:STATE_PEGU={
 		region_state:BIC={
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_road_carts" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_building_rice_farm" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BIC"
+						levels=1
+						region="STATE_EAST_BENGAL"
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
 		}
 		region_state:DEN={
 			create_building={

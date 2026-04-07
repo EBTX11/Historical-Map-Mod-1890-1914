@@ -63,7 +63,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=18
+						levels=21
 					}
 				}
 				reserves=1
@@ -80,6 +80,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
 			}
 		}
 	}
@@ -127,7 +138,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_dynamite_building_coal_mine" "pm_no_steam_automation" "pm_atmospheric_engine_pump_building_coal_mine" }
+				activate_production_methods={ "pm_dynamite_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -138,7 +149,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_donkey_mine" "pm_road_carts" "pm_nitroglycerin_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" }
+				activate_production_methods={ "pm_nitroglycerin_building_lead_mine" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_rail_transport_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -282,6 +293,10 @@
 						levels=1
 						region="STATE_KUBAN"
 					}
+					country={
+						country="c:RUS"
+						levels=29
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
@@ -295,7 +310,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=18
+						levels=21
 					}
 				}
 				reserves=1
@@ -322,7 +337,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=6
+						levels=7
 					}
 				}
 				reserves=1
@@ -363,6 +378,17 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
 			}
 		}
 	}
@@ -451,7 +477,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_steam_donkey_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -530,7 +556,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_dynamite_building_sulfur_mine" "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_sulfur_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_dynamite_building_sulfur_mine" "pm_condensing_engine_pump_building_sulfur_mine" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -565,6 +591,10 @@
 					country={
 						country="c:POL"
 						levels=1
+					}
+					country={
+						country="c:RUS"
+						levels=20
 					}
 				}
 				reserves=1
@@ -636,7 +666,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_picks_and_shovels_building_iron_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -718,7 +748,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_ceramics" "pm_manual_glassblowing" "pm_forest_glass" }
+				activate_production_methods={ "pm_forest_glass" "pm_manual_glassblowing" "pm_ceramics" }
 			}
 			create_building={
 				building="building_paper_mill"
@@ -884,11 +914,22 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=20
+						levels=24
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_advanced_tactics_training" }
+			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
 			}
 		}
 	}
@@ -921,7 +962,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=24
+						levels=25
 					}
 				}
 				reserves=1
@@ -964,6 +1005,31 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_steam_threshers_building_rice_farm" "pm_fig_orchards_building_rice_farm" }
+			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=30
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_ASTRAKHAN"
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
 			}
 		}
 	}
@@ -1096,7 +1162,7 @@
 				add_ownership={
 					country={
 						country="c:KOK"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -1276,7 +1342,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_manual_glassblowing" "pm_forest_glass" "pm_disabled_ceramics" }
+				activate_production_methods={ "pm_forest_glass" "pm_manual_glassblowing" "pm_disabled_ceramics" }
 			}
 			create_building={
 				building="building_sulfur_mine"
@@ -1329,6 +1395,31 @@
 				reserves=1
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_TURKMENIA"
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+			}
 		}
 		region_state:KHI={
 		}
@@ -1379,7 +1470,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_citrus_orchards" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 			create_building={
 				building="building_opium_plantation"
@@ -1515,6 +1606,17 @@
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
 			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_condensing_engine_pump_building_lead_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
+			}
 		}
 	}
 	s:STATE_CENTRAL_HIGHLANDS={
@@ -1559,17 +1661,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:AFG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -1674,17 +1765,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard" "pm_road_carts" }
 			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:AFG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
 		}
 	}
 	s:STATE_QUETTA={
@@ -1699,6 +1779,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_condensing_engine_pump_building_lead_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
 		}
 	}
@@ -1768,7 +1859,7 @@
 				add_ownership={
 					country={
 						country="c:AFG"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -1846,14 +1937,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_steam_donkey_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" }
 			}
 			create_building={
 				building="building_lead_mine"
 				add_ownership={
 					country={
 						country="c:BIC"
-						levels=9
+						levels=10
 					}
 				}
 				reserves=1
@@ -2094,7 +2185,7 @@
 				add_ownership={
 					country={
 						country="c:TIB"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -2119,13 +2210,13 @@
 					building={
 						type="building_rye_farm"
 						country="c:Y44"
-						levels=1
+						levels=2
 						region="STATE_LHASA"
 					}
 					building={
 						type="building_manor_house"
 						country="c:Y44"
-						levels=1
+						levels=2
 						region="STATE_NINGXIA"
 					}
 					building={
@@ -2157,6 +2248,24 @@
 						country="c:Y44"
 						levels=1
 						region="STATE_SOUTHERN_ANHUI"
+					}
+					building={
+						type="building_manor_house"
+						country="c:Y44"
+						levels=1
+						region="STATE_WESTERN_HUBEI"
+					}
+					building={
+						type="building_manor_house"
+						country="c:Y44"
+						levels=1
+						region="STATE_GANSU"
+					}
+					building={
+						type="building_manor_house"
+						country="c:Y44"
+						levels=1
+						region="STATE_HENAN"
 					}
 				}
 				reserves=1
@@ -2234,12 +2343,12 @@
 				add_ownership={
 					country={
 						country="c:TIB"
-						levels=9
+						levels=5
 					}
 					building={
-						type="building_logging_camp"
+						type="building_company_basic_forestry"
 						country="c:TIB"
-						levels=1
+						levels=5
 						region="STATE_NGARI"
 					}
 				}
@@ -2300,7 +2409,13 @@
 				add_ownership={
 					country={
 						country="c:NEP"
-						levels=6
+						levels=3
+					}
+					building={
+						type="building_company_basic_colonial_plantations_1"
+						country="c:NEP"
+						levels=3
+						region="STATE_HIMALAYAS"
 					}
 				}
 				reserves=1
@@ -2351,7 +2466,13 @@
 				add_ownership={
 					country={
 						country="c:NEP"
-						levels=6
+						levels=4
+					}
+					building={
+						type="building_company_basic_colonial_plantations_1"
+						country="c:NEP"
+						levels=2
+						region="STATE_HIMALAYAS"
 					}
 				}
 				reserves=1
@@ -2405,7 +2526,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_manual_dough_processing" "pm_sweeteners" }
+				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_manual_dough_processing" "pm_disabled_distillery" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -2449,7 +2570,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
+				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -2520,6 +2641,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "default_labour" "pm_steam_rail_transport" }
 			}
 		}
 		region_state:TIB={
@@ -2661,7 +2793,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_religious_bureaucrats" "pm_professional_bureaucrats" "pm_simple_organization" }
 			}
 		}
 	}

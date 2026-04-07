@@ -244,7 +244,7 @@
  			create_pop = { 
  				culture = scottish
  				religion = catholic
- 				size = 2
+ 				size = 3
  			}
  			create_pop = { 
  				culture = scottish
@@ -253,7 +253,7 @@
  			create_pop = { 
  				culture = british
  				religion = catholic
- 				size = 2
+ 				size = 3
  			}
  			create_pop = { 
  				culture = australian
@@ -620,27 +620,27 @@
  		region_state:RUS = { 
  			create_pop = { 
  				culture = russian
- 				size = 3006281
+ 				size = 3374224
  			}
  			create_pop = { 
  				culture = manchu
- 				size = 1304046
+ 				size = 1463650
  			}
  			create_pop = { 
  				culture = ukrainian
- 				size = 759
+ 				size = 851
  			}
  			create_pop = { 
  				culture = byelorussian
- 				size = 554
+ 				size = 621
  			}
  			create_pop = { 
  				culture = korean
- 				size = 11996
+ 				size = 13464
  			}
  			create_pop = { 
  				culture = siberian
- 				size = 32800
+ 				size = 36814
  			}
  		}
  	}
@@ -1985,23 +1985,23 @@
  		region_state:BIC = { 
  			create_pop = { 
  				culture = british
- 				size = 96
+ 				size = 166
  			}
  			create_pop = { 
  				culture = karen
- 				size = 200804
+ 				size = 348603
  			}
  			create_pop = { 
  				culture = burmese
- 				size = 112000
+ 				size = 194436
  			}
  			create_pop = { 
  				culture = thai
- 				size = 35980
+ 				size = 62462
  			}
  			create_pop = { 
  				culture = mon
- 				size = 8796
+ 				size = 15270
  			}
  		}
  		region_state:SIA = { 
@@ -2045,20 +2045,20 @@
  		region_state:BIC = { 
  			create_pop = { 
  				culture = kachin
- 				size = 448449
+ 				size = 778523
  			}
  			create_pop = { 
  				culture = shan
- 				size = 92097
+ 				size = 159883
  			}
  			create_pop = { 
  				culture = thai
  				religion = animist
- 				size = 18017
+ 				size = 31278
  			}
  			create_pop = { 
  				culture = burmese
- 				size = 128530
+ 				size = 223132
  			}
  		}
  	}
@@ -2066,11 +2066,11 @@
  		region_state:BIC = { 
  			create_pop = { 
  				culture = shan
- 				size = 584587
+ 				size = 1014864
  			}
  			create_pop = { 
  				culture = kachin
- 				size = 68069
+ 				size = 118170
  			}
  		}
  	}
@@ -2078,11 +2078,11 @@
  		region_state:BIC = { 
  			create_pop = { 
  				culture = burmese
- 				size = 1110740
+ 				size = 1928284
  			}
  			create_pop = { 
  				culture = kachin
- 				size = 68069
+ 				size = 118170
  			}
  		}
  	}
@@ -2090,37 +2090,37 @@
  		region_state:BIC = { 
  			create_pop = { 
  				culture = burmese
- 				size = 120015
+ 				size = 208350
  			}
  			create_pop = { 
  				culture = irish
- 				size = 107
+ 				size = 185
  			}
  			create_pop = { 
  				culture = boer
- 				size = 238
+ 				size = 413
  			}
  			create_pop = { 
  				culture = british
- 				size = 677
+ 				size = 1175
  			}
  			create_pop = { 
  				culture = bengali
- 				size = 8004
+ 				size = 13895
  			}
  			create_pop = { 
  				culture = irish
  				religion = protestant
- 				size = 22
+ 				size = 38
  			}
  			create_pop = { 
  				culture = franco_canadian
- 				size = 4
+ 				size = 6
  			}
  			create_pop = { 
  				culture = british
  				religion = jewish
- 				size = 2
+ 				size = 3
  			}
  			create_pop = { 
  				culture = scottish
@@ -2129,7 +2129,7 @@
  			}
  			create_pop = { 
  				culture = scottish
- 				size = 40
+ 				size = 69
  			}
  			create_pop = { 
  				culture = british
@@ -2138,7 +2138,7 @@
  			}
  			create_pop = { 
  				culture = australian
- 				size = 22
+ 				size = 38
  			}
  			create_pop = { 
  				culture = british
@@ -2147,12 +2147,12 @@
  			}
  			create_pop = { 
  				culture = anglo_canadian
- 				size = 8
+ 				size = 13
  			}
  			create_pop = { 
  				culture = burmese
  				religion = sunni
- 				size = 60066
+ 				size = 104276
  			}
  		}
  	
@@ -2229,25 +2229,25 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = burmese
-				size = 100888
+				size = 175145
 			}
 			create_pop = {
 				culture = british
-				size = 432
+				size = 749
 			}
 			create_pop = {
 				culture = burmese
 				religion = sunni
-				size = 60000
+				size = 104162
 			}
 			create_pop = {
 				culture = bengali
-				size = 7996
+				size = 13881
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 19000
+				size = 32984
 			}
 		} 
 	}
@@ -2255,19 +2255,19 @@
  		region_state:RUS = { 
  			create_pop = { 
  				culture = ainu
- 				size = 23976
+ 				size = 26910
  			}
  			create_pop = { 
  				culture = siberian
- 				size = 15940
+ 				size = 17890
  			}
  			create_pop = { 
  				culture = russian
- 				size = 433
+ 				size = 485
  			}
  			create_pop = { 
  				culture = ukrainian
- 				size = 67
+ 				size = 75
  			}
  		}
  		
@@ -2397,7 +2397,7 @@
  		region_state:KOR = { 
  			create_pop = { 
  				culture = korean
- 				size = 4550275
+ 				size = 3279771
  			}
  		}
  	}
@@ -2405,7 +2405,7 @@
  		region_state:KOR = { 
  			create_pop = { 
  				culture = korean
- 				size = 3122505
+ 				size = 2250655
  			}
  		}
  	}
@@ -2413,7 +2413,7 @@
  		region_state:KOR = { 
  			create_pop = { 
  				culture = korean
- 				size = 3122133
+ 				size = 2250387
  			}
  		}
  	}
@@ -2421,7 +2421,7 @@
  		region_state:KOR = { 
  			create_pop = { 
  				culture = korean
- 				size = 3010937
+ 				size = 2170239
  			}
  		}
  	}
@@ -2429,7 +2429,7 @@
  		region_state:KOR = { 
  			create_pop = { 
  				culture = korean
- 				size = 4230032
+ 				size = 3048945
  			}
  		}
  	}
