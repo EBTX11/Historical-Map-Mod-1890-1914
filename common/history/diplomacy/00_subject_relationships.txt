@@ -29,7 +29,11 @@
 	}
 	c:USA = {
 		create_diplomatic_pact = {
-			country = c:CUB
+			country = c:Y46
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:Y45
 			type = protectorate
 		}
 		create_diplomatic_pact = {

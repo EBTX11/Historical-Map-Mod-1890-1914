@@ -306,12 +306,7 @@ POPS = {
 			}
 		}
 		# Maestrazgo + about another 50k moved here for gameplay reasons
-		region_state:SPC = {
-			create_pop = {
-				culture = spanish
-				size = 100123
-			}
-		}
+		
 	}
 	s:STATE_CATALONIA = {
 		region_state:SPA = {
@@ -325,10 +320,16 @@ POPS = {
 			}
 		}
 		# Carlist controlled territories + 50k moved here for gameplay reasons
-		region_state:SPC = {
+		
+	
+		region_state:ADR = {
 			create_pop = {
 				culture = catalan
-				size = 74512
+				size = 926100
+			}
+			create_pop = {
+				culture = spanish
+				size = 50010
 			}
 		}
 	}
@@ -629,7 +630,9 @@ POPS = {
  		}
  	}
  	s:STATE_ALBANIA = { 
- 		region_state:ALB = { 
+ 		
+ 	
+		region_state:TUR = { 
  			create_pop = {
  				culture = albanian
  				size = 1004808
@@ -649,7 +652,7 @@ POPS = {
  				size = 39987
  			}
  		}
- 	}
+	}
  	s:STATE_BOSNIA = { 
  		region_state:BOS = { 
  			create_pop = {
@@ -714,7 +717,41 @@ POPS = {
  				size = 14
  			}
  		}
- 	}
+ 	
+		region_state:TUR = { 
+ 			create_pop = {
+ 				culture = bulgarian
+ 				size = 497700
+ 			}
+ 			create_pop = {
+ 				culture = turkish
+ 				size = 272505
+ 			}
+ 			create_pop = {
+ 				culture = turkish
+ 				religion = orthodox
+ 				size = 494
+ 			}
+ 			create_pop = {
+ 				culture = greek
+ 				size = 39938
+ 			}
+ 			create_pop = {
+ 				culture = bulgarian
+ 				religion = sunni
+ 				size = 35505
+ 			}
+ 			create_pop = {
+ 				culture = sephardic
+ 				size = 6966
+ 			}
+ 			create_pop = {
+ 				culture = sephardic
+ 				religion = orthodox
+ 				size = 14
+ 			}
+ 		}
+	}
  	s:STATE_BULGARIA = { 
  		region_state:BUL = { 
  			create_pop = {
@@ -924,7 +961,27 @@ POPS = {
  				size = 70
  			}
  		}
- 	}
+ 	
+		region_state:TUR = { 
+ 			create_pop = {
+ 				culture = serb
+ 				size = 218627
+ 			}
+ 			create_pop = {
+ 				culture = albanian
+ 				size = 43952
+ 			}
+ 			create_pop = {
+ 				culture = bosniak
+ 				size = 43145
+ 			}
+ 			create_pop = {
+ 				culture = albanian
+ 				religion = orthodox
+ 				size = 70
+ 			}
+ 		}
+	}
 
 	s:STATE_WESTERN_SERBIA = {
 		region_state:SER = {
@@ -987,31 +1044,12 @@ POPS = {
 				size = 201
 			}
 		}
-		region_state:TUR = {
-			create_pop = {
-				culture = serb
-				size = 175355
-			}
-			create_pop = {
-				culture = albanian
-				size = 43839
-			}
-			create_pop = {
-				culture = turkish
-				size = 29226
-			}
-			create_pop = {
-				culture = romanian
-				size = 5845
-			}
-			create_pop = {
-				culture = sephardic
-				size = 120
-			}
-		}
+		
 	}
 	s:STATE_KOSOVO = {
-		region_state:SER = {
+		
+	
+		region_state:TUR = {
 			create_pop = {
 				culture = albanian
 				size = 167012
@@ -1173,9 +1211,45 @@ POPS = {
  				size = 103791
  			}
  		}
- 	}
+ 	
+		region_state:TUR = { 
+ 			create_pop = {
+ 				culture = greek
+ 				size = 936005
+ 			}
+ 			create_pop = {
+ 				culture = turkish
+ 				size = 75943
+ 			}
+ 			create_pop = {
+ 				culture = greek
+ 				religion = sunni
+ 				size = 249
+ 			}
+ 			create_pop = {
+ 				culture = albanian
+ 				size = 11954
+ 			}
+ 			create_pop = {
+ 				culture = sephardic
+ 				size = 3767
+ 			}
+ 			create_pop = {
+ 				culture = greek
+ 				religion = jewish
+ 				size = 16
+ 			}
+ 			create_pop = {
+ 				culture = albanian
+ 				religion = orthodox
+ 				size = 103791
+ 			}
+ 		}
+	}
  	s:STATE_SKOPIA = { 
- 		region_state:SER = { 
+ 		
+ 	
+		region_state:TUR = { 
  			create_pop = {
  				culture = bulgarian
  				size = 384106
@@ -1212,9 +1286,11 @@ POPS = {
  				size = 13
  			}
  		}
- 	}
+	}
  	s:STATE_MACEDONIA = { 
- 		region_state:GRE = { 
+ 		
+ 	
+		region_state:TUR = { 
  			create_pop = {
  				culture = turkish
  				size = 83903
@@ -1245,9 +1321,12 @@ POPS = {
  				size = 98
  			}
  		}
- 	}
+	}
  	s:STATE_WESTERN_THRACE = { 
- 		region_state:GRE = { 
+ 		
+ 		
+ 	
+		region_state:TUR = { 
  			create_pop = {
  				culture = turkish
  				size = 274413
@@ -1269,31 +1348,7 @@ POPS = {
  				size = 1500
  			}
  		}
- 		region_state:BUL = { 
- 			create_pop = {
- 				culture = turkish
- 				religion = orthodox
- 				size = 7
- 			}
- 			create_pop = {
- 				culture = bulgarian
- 				size = 29
- 			}
- 			create_pop = {
- 				culture = greek
- 				size = 2
- 			}
- 			create_pop = {
- 				culture = turkish
- 				size = 22
- 			}
- 			create_pop = {
- 				culture = bulgarian
- 				religion = sunni
- 				size = 4
- 			}
- 		}
- 	}
+	}
  	s:STATE_IONIAN_ISLANDS = { 
  		region_state:ION = { 
  			create_pop = {

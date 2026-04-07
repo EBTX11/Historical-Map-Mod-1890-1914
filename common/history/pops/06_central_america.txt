@@ -52,34 +52,7 @@
 				size = 4000
 			}
 		}
-		# region_state:MKT = {
-		# 	create_pop = {
-		# 		culture = miskito # Tawira Miskito
-		# 		size = 30000
-		# 	}
-		# 	create_pop = {
-		# 		culture = miskito
-		# 		religion = protestant
-		# 		size = 10000
-		# 	}
-		# 	create_pop = {
-		# 		culture = afro_caribbean # Miskito Sambu
-		# 		size = 20000
-		# 	}
-		# 	create_pop = {
-		# 		culture = afro_caribeno
-		# 		size = 500
-		# 	}
-		# 	create_pop = {
-		# 		culture = british
-		# 		size = 500
-		# 	}
-		# 	create_pop = {
-		# 		pop_type = slaves
-		# 		culture = afro_caribeno
-		# 		size = 1000
-		# 	}
-		# }
+		# 
 	}
 	s:STATE_COSTA_RICA = {
 		region_state:COS = {
@@ -392,7 +365,9 @@
 		}
 	}
 	s:STATE_EASTERN_CUBA = { # TODO Here, Caribeño = White. Revise spanish/caribeno ratio to account for mainlanders. Possibly include sepoarate Catalans/Galicians etc.
-		region_state:CUB = {
+		
+	
+		region_state:Y45 = {
 			# 896400
 			create_pop = {
 				culture = caribeno
@@ -415,6 +390,27 @@
 	}
 	s:STATE_CENTRAL_CUBA = { # TODO Here, Caribeño = White. Revise spanish/caribeno ratio to account for mainlanders. Possibly include sepoarate Catalans/Galicians etc.
 		region_state:CUB = {
+			# 896400
+			create_pop = {
+				culture = caribeno
+				size = 100616
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 32104
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 137198
+			}
+			create_pop = {
+				culture = spanish
+				size = 12000
+			}
+		}
+	
+		region_state:Y45 = {
 			# 896400
 			create_pop = {
 				culture = caribeno

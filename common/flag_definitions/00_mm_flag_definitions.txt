@@ -22,6 +22,20 @@ INJECT:JAP = {
 		}
 	}
 }
+Y45 = {
+	flag_definition = {
+		coa = CUB_independence_war
+		subject_canton = CUB_independence_war
+		priority = 200 
+	}
+}
+Y46 = {
+	flag_definition = {
+		coa = PHI_war
+		subject_canton = PHI_war
+		priority = 20
+	}
+}
 SST = {
 	flag_definition = {
 		coa = SST

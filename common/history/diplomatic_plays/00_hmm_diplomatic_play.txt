@@ -57,7 +57,7 @@ DIPLOMATIC_PLAYS = {
  
 		create_diplomatic_play = {
 			name = balkanique_war
-#
+ 
 			war = yes
 			#annex_as_civil_war = yes 
 			type = dp_return_state  
@@ -160,9 +160,7 @@ DIPLOMATIC_PLAYS = {
 
 
 		} 
-	} 
- 
-
+	}  
 	c:EGY ?= { 
 		create_diplomatic_play = {
 			name = egy_sey
@@ -232,4 +230,68 @@ DIPLOMATIC_PLAYS = {
 
 		}  
 	} 
+
+ 
+	c:Y45 ?= { 
+		create_diplomatic_play = {
+			name = spanish_us_war_1
+
+			target_state = c:CUB.capital 
+			war = yes
+			annex_as_civil_war = yes 
+			type = dp_revolution   
+            add_initiator_backers = { c:USA } 
+            add_initiator_backers = { c:Y46 } 
+			  
+			#Y46
+			add_war_goal = {
+				holder = c:Y46 
+				type = annex_country 
+				target_country = c:PHI 
+			}  
+			#USA
+			add_war_goal = {
+				holder = c:USA 
+				type = transfer_subject 
+				target_country = c:PCO 
+			} 
+			#USA
+			add_war_goal = {
+				holder = c:USA 
+				type = humiliation 
+				target_country = c:SPA 
+			} 
+			#SPA
+			add_war_goal = {
+				holder = c:SPA 
+				type = humiliation 
+				target_country = c:USA 
+			}   
+		} 
+	} 
+	c:Y46 ?= { 
+		create_diplomatic_play = {
+			name = spanish_us_war_2
+
+			target_state = c:PHI.capital 
+			war = yes
+			annex_as_civil_war = yes 
+			type = dp_revolution   
+            add_initiator_backers = { c:USA } 
+            add_initiator_backers = { c:Y45 } 
+			   
+			#USA
+			add_war_goal = {
+				holder = c:USA 
+				type = humiliation 
+				target_country = c:SPA 
+			} 
+			#SPA
+			add_war_goal = {
+				holder = c:SPA 
+				type = humiliation 
+				target_country = c:USA 
+			}   
+		} 
+	}   
 }

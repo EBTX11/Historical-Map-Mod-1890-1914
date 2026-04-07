@@ -52,5 +52,38 @@
 				change_tag = SHR
 			}  
 		} 
+		 
+		if = {
+			limit = {  
+				exists = c:Y45
+				c:Y45 = {   
+					has_truce_with = c:SPA   
+				}   
+				c:Y45 = {   
+					owns_entire_state_region = STATE_WESTERN_CUBA 
+					owns_entire_state_region = STATE_EASTERN_CUBA
+					owns_entire_state_region = STATE_CENTRAL_CUBA 
+				}   
+			}     
+			c:Y45 = {  
+				change_tag = CUB
+			}  
+		} 
+		if = {
+			limit = {  
+				exists = c:Y46
+				c:Y46 = {   
+					has_truce_with = c:SPA   
+				}   
+				c:Y46 = {   
+					owns_entire_state_region = STATE_MINDANAO 
+					owns_entire_state_region = STATE_LUZON 
+					owns_entire_state_region = STATE_VISAYAS
+				}   
+			}     
+			c:Y46 = {  
+				change_tag = PHI
+			}  
+		}  
 	}
 }

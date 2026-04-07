@@ -608,20 +608,7 @@
  				size = 18958
  			}
  		}
- 		region_state:AFG = { 
- 			create_pop = {
- 				culture = tajik
- 				size = 90057
- 			}
- 			create_pop = {
- 				culture = uzbek
- 				size = 34980
- 			}
- 			create_pop = {
- 				culture = kirgiz
- 				size = 2999
- 			}
- 		}
+ 		
 		region_state:KOK = {
 			create_pop = {
 				culture = turkmen
@@ -912,23 +899,7 @@
 				size = 5000
 			}
 		}
-		region_state:KAF = {
-			create_pop = {
-				culture = kho # nuristani
-				religion = hindu
-				size = 20344
-			}
-			create_pop = {
-				culture = kho # nuristani
-				religion = hindu
-				pop_type = slaves
-				size = 2000
-			}
-			create_pop = {
-				culture = pashtun
-				size = 4404
-			}
-		}
+		
 	}
 
 	s:STATE_HERAT = {
@@ -1100,6 +1071,23 @@
 				size = 7000
 			}
 		} 
+	
+		region_state:OMA = {
+			create_pop = {
+				culture = baluchi
+				size = 440296
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 14800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 7000
+			}
+		}
 	}
 	s:STATE_LHASA = {
 		region_state:TIB = {

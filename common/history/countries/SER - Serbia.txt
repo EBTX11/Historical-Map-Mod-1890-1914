@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 	c:SER ?= {
-        effect_starting_technology_tier_1_tech = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		add_technology_researched = mass_communication
 		add_technology_researched = empiricism
 		effect_starting_politics_conservative = yes

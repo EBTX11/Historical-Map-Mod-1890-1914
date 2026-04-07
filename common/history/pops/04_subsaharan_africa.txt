@@ -358,20 +358,7 @@
  		}
  	}
  	s:STATE_YORUBA_STATES = { 
- 		region_state:SOK = { 
- 			create_pop = {
- 				culture = yoruba
- 				size = 1549173
- 			}
- 			create_pop = {
- 				culture = fulbe
- 				size = 1250000
- 			}
- 			create_pop = {
- 				culture = fon
- 				size = 28004
- 			}
- 		}
+ 		
  		region_state:STN = { 
  			create_pop = {
  				culture = yoruba
@@ -851,26 +838,7 @@
  				size = 29
  			}
  		}
- 		region_state:WSG = { 
- 			create_pop = {
- 				culture = somali
- 				size = 473035
- 			}
- 			create_pop = {
- 				culture = swahili
- 				size = 88100
- 			}
- 			create_pop = {
- 				culture = oromo
- 				religion = animist
- 				size = 23949
- 			}
- 			create_pop = {
- 				culture = oromo
- 				religion = sunni
- 				size = 10
- 			}
- 		}
+ 		
  	}
  	s:STATE_AMHARA = { 
  		region_state:ETH = { 
@@ -1954,18 +1922,8 @@
  				size = 19
  			}
  		}
- 		region_state:MAD = { 
- 			create_pop = {
- 				culture = khoisan
- 				size = 27912
- 			}
- 		}
- 		region_state:AST = { 
- 			create_pop = {
- 				culture = khoisan
- 				size = 27939
- 			}
- 		}
+ 		
+ 		
  	}
  	s:STATE_CAPE_COLONY = { 
  		region_state:SAF = { 

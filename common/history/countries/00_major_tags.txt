@@ -20,8 +20,9 @@ ITA
 BEL
 NET
 JAP 
+Y44
 # TIER_3_TECH_HMM #effect_starting_technology_tier_3_tech_hmm
-Y44 
+ 
 RUS
 BRZ
 MEX

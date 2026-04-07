@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 	c:BUL = {
-        effect_starting_technology_tier_1_tech = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 	activate_law = law_type:law_autocracy
 	activate_law = law_type:law_censorship
 	activate_law = law_type:law_colonial_exploitation

@@ -132,12 +132,7 @@ POPS = {
  				size = 4004
  			}
  		}
- 		region_state:NET = { 
- 			create_pop = {
- 				culture = afro_caribeno
- 				size = 9752
- 			}
- 		}
+ 		
  	}
  	s:STATE_MIRANDA = { 
  		region_state:VNZ = { 

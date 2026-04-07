@@ -872,7 +872,7 @@ STATES = {
 	}
 	s:STATE_EASTERN_CUBA = {
 		create_state = {
-			country = c:CUB
+			country = c:Y45
 			owned_provinces = {
 				x0DA38C x30B001 x519343 x69C041 xB48FF1 xE70FA4
 			}
@@ -883,7 +883,13 @@ STATES = {
 		create_state = {
 			country = c:CUB
 			owned_provinces = {
-				x152D1C x20EFEA x58C211 x9957D8 xA70607 xC3EB7D xC464AE xD810EC xEBE1C7 xFE4123
+				x20EFEA x58C211 xA70607 xC3EB7D xC464AE xFE4123
+			}
+		}
+		create_state = {
+			country = c:Y45
+			owned_provinces = {
+				xD810EC xEBE1C7 x152D1C x9957D8
 			}
 		}
 		add_homeland = cu:caribeno
@@ -3892,11 +3898,10 @@ STATES = {
 	}
 	s:STATE_MINDANAO = {
 		create_state = {
-			country = c:PHI
+			country = c:Y46
 			owned_provinces = {
-				xCAFE73 xF0014A x7B364D x62D16D xAA1CA3 x585200 x2D5E65 x988CCA xC3EC2D xBC5002 x62D16D xAA1CA3 xE90347 x585200 x355FBE x4C67A7 x678557 xE90347 xE804B7 x0180F0 x99D030
+				xCAFE73 xF0014A x7B364D x62D16D xAA1CA3 x585200 x2D5E65 x988CCA xC3EC2D xBC5002 xE90347 x355FBE x4C67A7 x678557 xE804B7 x0180F0 x99D030
 			}
-			state_type = unincorporated
 		}
 		add_claim = c:PHI
 		add_claim = c:MGD
@@ -3919,11 +3924,10 @@ STATES = {
 	}
 	s:STATE_VISAYAS = {
 		create_state = {
-			country = c:PHI
+			country = c:Y46
 			owned_provinces = {
 				xE2086C x46EA60 x8ABD23 x8001F0 x48B8C8 x591034 x223245 xB4699E x05FD19 xCFAFEE x90F80A xF001E2 xB971C4 xD2CA4A x02E634
 			}
-			state_type = unincorporated
 		}
 		add_homeland = cu:filipino_mestizo
 		add_homeland = cu:visayan

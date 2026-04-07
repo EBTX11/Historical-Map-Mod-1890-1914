@@ -1,4 +1,28 @@
 ﻿
+Y46= { 
+	color = { 56 85 199 }
+	
+	country_type = recognized #colonial
+
+	tier = kingdom
+	
+	cultures = { filipino_mestizo } 
+	capital = STATE_LUZON
+}
+
+
+Y45= { 
+	color = { 164 119 66 }
+	
+	country_type = recognized #colonial
+
+	tier = kingdom
+	
+	cultures = { caribeno } 
+	capital = STATE_EASTERN_CUBA
+}
+
+
 Y44= { 
 	color = hsv360 	{	215	80	45	}
 	

@@ -701,50 +701,7 @@ POPS = {
 				size = 68400
 			}
 		}
-		region_state:AUS = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 2519
-			}
-			create_pop = {
-				culture = north_german
-				size = 14275
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 4540
-			}
-			create_pop = {
-				culture = polish
-				size = 10238
-			}
-			create_pop = {
-				culture = polish
-				religion = protestant
-				size = 538
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 787
-			}
-			create_pop = {
-				culture = czech
-				religion = protestant
-				size = 262
-			}
-			create_pop = {
-				culture = sorb
-				religion = catholic
-				size = 760
-			}
-			create_pop = {
-				culture = sorb
-				religion = protestant
-				size = 6840
-			}
-		}
+		
 	}
 	s:STATE_UPPER_SILESIA = {
 		region_state:GER = {
@@ -1494,38 +1451,7 @@ POPS = {
 		}
 	}
  	s:STATE_MOLDAVIA = { 
- 		region_state:AUS = { 
- 			create_pop = {
- 				culture = romanian
- 				size = 14402
- 			}
- 			create_pop = {
- 				culture = ukrainian
- 				size = 144113
- 			}
- 			create_pop = {
- 				culture = hungarian
- 				size = 11888
- 			}
- 			create_pop = {
- 				culture = south_german
- 				religion = orthodox
- 				size = 368
- 			}
- 			create_pop = {
- 				culture = south_german
- 				size = 32059
- 			}
- 			create_pop = {
- 				culture = ashkenazi
- 				size = 19979
- 			}
- 			create_pop = {
- 				culture = south_german
- 				religion = jewish
- 				size = 5
- 			}
- 		}
+ 		
  		region_state:ROM = { 
  			create_pop = {
  				culture = romanian

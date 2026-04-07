@@ -430,7 +430,9 @@
  		}
  	}
  	s:STATE_MINDANAO = { 
- 		region_state:PHI = { 
+ 		
+ 	
+		region_state:Y46 = { 
  			create_pop = { 
  				culture = bornean
  				religion = catholic
@@ -459,7 +461,7 @@
  				size = 44004
  			}
  		}
- 	}
+	}
  	s:STATE_LUZON = { 
  		region_state:PHI = { 
  			create_pop = { 
@@ -488,7 +490,9 @@
  		}
  	}
  	s:STATE_VISAYAS = { 
- 		region_state:PHI = { 
+ 		
+ 	
+		region_state:Y46 = { 
  			create_pop = { 
  				culture = filipino
  				size = 922368
@@ -508,14 +512,9 @@
  				size = 39917
  			}
  		}
- 	}
+	}
  	s:STATE_WEST_MICRONESIA = { 
- 		region_state:PHI = { 
- 			create_pop = { 
- 				culture = micronesian
- 				size = 23781
- 			}
- 		}
+ 		
  		region_state:GER = { 
  			create_pop = { 
  				culture = micronesian
@@ -580,13 +579,15 @@
  		}
  	}
  	s:STATE_NAURU = { 
- 		region_state:GER = { 
+ 		
+ 	
+		region_state:NRU = { 
  			create_pop = { 
  				culture = melanesian
  				size = 79906
  			}
  		}
- 	}
+	}
  	s:STATE_FIJI = { 
  		region_state:FJI = { 
  			create_pop = { 
@@ -626,24 +627,14 @@
 				size = 48050
 			}
  		}
- 		region_state:GBR = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
+ 		
  		region_state:PLY = { 
 			create_pop = { 
 				culture = melanesian
 				size = 48050
 			}
  		}
- 		region_state:GBR = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
+ 		
  	}
  	s:STATE_TONGA = { 
  		region_state:TNG = { 
@@ -652,59 +643,19 @@
 				size = 48050
 			}
  		}
- 		region_state:GBR = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:NZL = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:USA = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:FRA = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
+ 		
+ 		
+ 		
+ 		
  		region_state:TNG = { 
 			create_pop = { 
 				culture = melanesian
 				size = 48050
 			}
  		}
- 		region_state:GBR = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:NZL = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:USA = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
- 		region_state:FRA = { 
-			create_pop = { 
-				culture = melanesian
-				size = 48050
-			}
- 		}
+ 		
+ 		
+ 		
+ 		
  	}
 }

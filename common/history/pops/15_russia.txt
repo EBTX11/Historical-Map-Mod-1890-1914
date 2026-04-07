@@ -293,9 +293,43 @@
 				size = 21106
 			}
 		}
+	
+		region_state:RUS = {
+			create_pop = {
+				culture = polish
+				pop_type = aristocrats
+				size = 12400
+			}
+			create_pop = {
+				culture = polish
+				size = 958392
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 180591
+			}
+			create_pop = {
+				culture = east_german
+				size = 39499
+			}
+			create_pop = {
+				culture = russian
+				size = 53083
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 50440
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 21106
+			}
+		}
 	}
 	s:STATE_GREATER_POLAND = { #Warszawa - DONE
-		region_state:RUS = {
+		
+	
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				pop_type = aristocrats
@@ -330,7 +364,9 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = { #Lublin - DONE
-		region_state:RUS = {
+		
+	
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 633163
