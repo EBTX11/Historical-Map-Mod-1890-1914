@@ -43,13 +43,6 @@
 		# 	name = hokkaido_colonization_modifier
 		# 	days = very_long_modifier_time
 		# }
-		set_variable = meiji_var
-        create_character = {
-            first_name = ""
-            last_name = ""
-            birth_date = 1800.1.1
-            ruler = yes
-            interest_group = 
-        }
+		set_variable = meiji_var 
 	}
 }
