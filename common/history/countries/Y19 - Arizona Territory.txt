@@ -1,5 +1,6 @@
 ﻿
 COUNTRIES = {
-	c:Y19= {  
+	c:Y19= {
+        effect_starting_technology_tier_2_tech = yes  
 	}
 }

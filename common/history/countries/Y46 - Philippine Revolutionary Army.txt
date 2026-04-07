@@ -1,5 +1,6 @@
 ﻿
 COUNTRIES = {
-	c:Y46= {  
+	c:Y46= {
+        effect_starting_technology_tier_2_tech = yes  
 	}
 }
