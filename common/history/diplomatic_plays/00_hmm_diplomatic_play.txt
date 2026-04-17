@@ -34,6 +34,27 @@ DIPLOMATIC_PLAYS = {
 			}     
 		}
 	}		 
+	c:SAF ?= {
+		create_diplomatic_play = {
+			name = boear_war 
+
+			target_state = c:TRN.capital 
+			war = yes 
+			type = dp_annex_war  
+			 
+            add_initiator_backers = { c:GBR }
+            add_initiator_backers = { c:BST }
+            add_initiator_backers = { c:SWZ }
+            add_initiator_backers = { c:NAL }
+
+			#Y44  
+			add_war_goal = {
+				holder = c:SAF 
+				type = annex_country
+				target_country = c:ORA 
+			}    
+		} 
+	} 	 
 	c:CHI ?= {
 		create_diplomatic_play = {
 			name = china_republique 

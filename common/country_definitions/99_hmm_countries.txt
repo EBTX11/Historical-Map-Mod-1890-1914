@@ -518,13 +518,13 @@ ITC = {
 # }
 
 COG = {
-	color = { 225  198  153 }
+	color = { 225 198 153 }
 
 	country_type = colonial
 
 	tier = principality
 
-	cultures = { french	 }
+	cultures = { french maghrebi bakongo }
 	capital = STATE_CONGO
 }
 SOH = {

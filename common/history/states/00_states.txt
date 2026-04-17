@@ -4289,10 +4289,10 @@ STATES = {
 	        country = c:TBI
 	        owned_provinces = { x07780C x0B50CD x19B4DB x49092F x60CA92 x9D0543 xD44F72 xD87F94 }
 	    }
-	    add_homeland = teda
-	    add_homeland = bedouin
-	    add_homeland = fur
-	    add_homeland = equatorial_bantu
+	    add_homeland = cu:teda
+	    add_homeland = cu:bedouin
+	    add_homeland = cu:fur
+	    add_homeland = cu:equatorial_bantu
 	    add_claim = c:COG
 	}
 	s:STATE_WADDAI = {
