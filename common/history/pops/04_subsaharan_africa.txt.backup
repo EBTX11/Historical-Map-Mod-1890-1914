@@ -1251,79 +1251,111 @@
  			}
  		}
  	}
- 	s:STATE_UGANDA = { 
- 		region_state:UGA = { 
+ 	s:STATE_UGANDA = {
+ 		region_state:E08 = {
  			create_pop = {
  				culture = lacustrine_bantu
- 				size = 573498
+ 				size = 43012
  			}
  			create_pop = {
  				culture = baganda
- 				size = 682646
+ 				size = 51198
  			}
  			create_pop = {
  				culture = luo
- 				size = 208940
+ 				size = 15670
+ 			}
+ 		}
+ 		region_state:UGA = {
+ 			create_pop = {
+ 				culture = lacustrine_bantu
+ 				size = 530486
+ 			}
+ 			create_pop = {
+ 				culture = baganda
+ 				size = 631448
+ 			}
+ 			create_pop = {
+ 				culture = luo
+ 				size = 193270
  			}
  		}
  	}
- 	s:STATE_EQUATORIA = { 
- 		region_state:SUD = { 
+ 	s:STATE_EQUATORIA = {
+ 		region_state:E08 = {
  			create_pop = {
  				culture = sudanese
- 				size = 12005
+ 				size = 800
  			}
  			create_pop = {
  				culture = fur
- 				size = 44023
+ 				size = 2935
  			}
  			create_pop = {
  				culture = nilotic
- 				size = 212410
+ 				size = 14161
  			}
  			create_pop = {
  				culture = nuba
- 				size = 71919
- 			}
- 			create_pop = {
- 				culture = nuba
- 				religion = sunni
- 				size = 112
+ 				size = 4802
  			}
  			create_pop = {
  				culture = dinka
- 				size = 147890
+ 				size = 9867
  			}
  			create_pop = {
  				culture = luo
- 				size = 112002
- 			}
- 			create_pop = {
- 				culture = dinka
- 				religion = sunni
- 				size = 117
+ 				size = 7467
  			}
  			create_pop = {
  				culture = nuer
- 				religion = sunni
- 				size = 376
+ 				size = 12542
  			}
  			create_pop = {
  				culture = azande
- 				religion = sunni
- 				size = 438
+ 				size = 14597
  			}
  			create_pop = {
  				culture = bedouin
- 				size = 500000
+ 				size = 33333
+ 			}
+ 		}
+ 		region_state:SUD = {
+ 			create_pop = {
+ 				culture = sudanese
+ 				size = 11205
+ 			}
+ 			create_pop = {
+ 				culture = fur
+ 				size = 41088
+ 			}
+ 			create_pop = {
+ 				culture = nilotic
+ 				size = 198249
+ 			}
+ 			create_pop = {
+ 				culture = nuba
+ 				size = 67229
+ 			}
+ 			create_pop = {
+ 				culture = dinka
+ 				size = 138140
+ 			}
+ 			create_pop = {
+ 				culture = luo
+ 				size = 104535
  			}
  			create_pop = {
  				culture = nuer
- 				size = 187750
+ 				size = 175584
  			}
  			create_pop = {
  				culture = azande
- 				size = 218514
+ 				size = 204355
+ 			}
+ 			create_pop = {
+ 				culture = bedouin
+ 				size = 466667
  			}
  		}
  	}

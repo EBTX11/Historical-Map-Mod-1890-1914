@@ -1,4 +1,14 @@
-﻿
+﻿REPLACE:ORA = { # Oranje 
+}
+REPLACE:TRN = { # Oranje 
+	dynamic_country_name = {
+		name = dyn_c_south_african_republic
+		adjective = dyn_c_south_african_republic_adj
+
+		is_main_tag_only = yes
+		priority = 10000
+	}
+} 
 INJECT:MCH = { 
 	dynamic_country_name = {
 		name = dyn_c_MCH_01

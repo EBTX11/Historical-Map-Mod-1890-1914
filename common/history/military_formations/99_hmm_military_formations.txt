@@ -1,0 +1,463 @@
+MILITARY_FORMATIONS = {
+	c:ORA ?= { 
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_southern_africa
+			name = ORA_MILITARY_FORMATION_01
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_VRYSTAAT
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_VRYSTAAT
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_VRYSTAAT
+				count = 20
+			}
+			save_scope_as = ORA_MILITARY_FORMATION_01
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_ORA_MILITARY_FORMATION_01
+			historical = yes
+			hq = region_southern_africa
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_ORA_MILITARY_FORMATION_01
+		}
+
+		scope:character_ORA_MILITARY_FORMATION_01 = {
+			transfer_to_formation = scope:ORA_MILITARY_FORMATION_01
+		}
+	}
+
+	c:TRN ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_southern_africa
+			name = TRN_MILITARY_FORMATION_01
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_CAPITAL
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_CAPITAL
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_CAPITAL
+				count = 20
+			}
+			save_scope_as = TRN_MILITARY_FORMATION_01
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TRN_MILITARY_FORMATION_01
+			historical = yes
+			hq = region_southern_africa
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TRN_MILITARY_FORMATION_01
+		}
+
+		scope:character_TRN_MILITARY_FORMATION_01 = {
+			transfer_to_formation = scope:TRN_MILITARY_FORMATION_01
+		}
+	}
+
+	c:JAP ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_01
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_CHUBU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_CHUBU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_CHUBU
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_01
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_01
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_01
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_01 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_01
+		}
+	
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_02
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_CHUGOKU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_CHUGOKU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_CHUGOKU
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_02
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_02
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_02
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_02 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_02
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_03
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_KANSAI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_KANSAI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_KANSAI
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_03
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_03
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_03
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_03 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_03
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_04
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_KANTO
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_KANTO
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_KANTO
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_04
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_04
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_04
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_04 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_04
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_05
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_KYUSHU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_KYUSHU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_KYUSHU
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_05
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_05
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_05
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_05 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_05
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_06
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_trench_infantry
+				state_region = s:STATE_SHIKOKU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_SHIKOKU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SHIKOKU
+				count = 20
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_06
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_JAP_MILITARY_FORMATION_06
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_06
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_06 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_06
+		}
+	
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_07
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_scout_cruiser
+				state_region = s:STATE_CHUBU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dreadnought
+				state_region = s:STATE_CHUBU
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_submarine
+				state_region = s:STATE_CHUBU
+				count = 10
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_07
+		}
+
+		create_character = {
+			is_general = no
+			is_admiral = yes
+			first_name = character_JAP_MILITARY_FORMATION_07
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_07
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_07 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_07
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_08
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_scout_cruiser
+				state_region = s:STATE_FORMOSA
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dreadnought
+				state_region = s:STATE_FORMOSA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_submarine
+				state_region = s:STATE_FORMOSA
+				count = 10
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_08
+		}
+
+		create_character = {
+			is_general = no
+			is_admiral = yes
+			first_name = character_JAP_MILITARY_FORMATION_08
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_08
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_08 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_08
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_09
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_scout_cruiser
+				state_region = s:STATE_KANTO
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dreadnought
+				state_region = s:STATE_KANTO
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_submarine
+				state_region = s:STATE_KANTO
+				count = 10
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_09
+		}
+
+		create_character = {
+			is_general = no
+			is_admiral = yes
+			first_name = character_JAP_MILITARY_FORMATION_09
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_09
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_09 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_09
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_japan
+			name = JAP_MILITARY_FORMATION_10
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_scout_cruiser
+				state_region = s:STATE_SHIKOKU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dreadnought
+				state_region = s:STATE_SHIKOKU
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_submarine
+				state_region = s:STATE_SHIKOKU
+				count = 10
+			}
+			save_scope_as = JAP_MILITARY_FORMATION_10
+		}
+
+		create_character = {
+			is_general = no
+			is_admiral = yes
+			first_name = character_JAP_MILITARY_FORMATION_10
+			historical = yes
+			hq = region_japan
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_JAP_MILITARY_FORMATION_10
+		}
+
+		scope:character_JAP_MILITARY_FORMATION_10 = {
+			transfer_to_formation = scope:JAP_MILITARY_FORMATION_10
+		}
+}
+}

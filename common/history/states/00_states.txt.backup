@@ -1532,6 +1532,7 @@ STATES = {
 		add_homeland = bakongo
 	}
 	s:STATE_BOTSWANA = {
+
 	    create_state = {
 	        country = c:BOW
 	        owned_provinces = { x036F2B x03C203 x054B00 x06D1B1 x0906CA x0B6737 x0C4D4C x0CC806 x0CE0FB x0D58B5 x1109D2 x128E49 x158E45 x167727 x1707CC x1745CC x17960C x19247C x19C97C x1DC5C0 x223C4F x246D93 x26D55C x2FE2E3 x31A92F x32C840 x38C967 x3C20FD x3D52E8 x44CA8D x462BFC x573D63 x594654 x5A7E71 x698277 x71C0D0 x760E05 x78A346 x7B96B9 x7DB4A4 x7DE725 x7FBDCE x819206 x832BB2 x83A6B2 x858909 x8B4085 x8BAD21 x902564 x958940 x987179 x9F9C56 xA3BC0B xA522F8 xA77BC0 xA8DF8B xAB3B20 xABB3BC xABDEAA xB041D0 xB1E75E xB6F8AE xB71BD8 xB82E36 xC0E1AD xC5B1D0 xC820AA xCA6EA0 xCCEEA1 xD043BF xD15F17 xD552F5 xD6F5C7 xD8ACEF xDB6DB3 xDC9F54 xDF3B0C xDFBC7F xE225A2 xEA71CE xF0C0D0 xF311B5 xF4C429 xF92485 xFF8C04 xFFAA21 }
@@ -1548,8 +1549,10 @@ STATES = {
 	    add_homeland = herero
 	    add_homeland = khoisan
 	    add_homeland = nguni
+	    add_claim = c:BOW
 	}
 	s:STATE_ZAMBIA = {
+
 	    create_state = {
 	        country = c:TSW
 	        owned_provinces = { xA430E0 xF4B66F }
@@ -1565,6 +1568,7 @@ STATES = {
 	    add_homeland = cu:kavango_bantu
 	    add_homeland = cu:lunda
 	    add_homeland = cu:chewa
+	    add_claim = c:ZIM
 	}
 	s:STATE_CAMBODIA = {
 		create_state = {
@@ -2409,6 +2413,8 @@ STATES = {
 		add_homeland = cu:inuit
 	}
 	s:STATE_WEST_SAHARA = {
+
+
 	    create_state = {
 	        country = c:E07
 	        owned_provinces = { x02AB5D x19094B x259965 x2B6F2B x362DCE x36911C x3F400E x415205 x4A82A1 x4D7B2F x53DC1A x695160 x735623 x7E1555 x7E5A63 x82A9C3 x85BAAD x87BB99 x8DFB0F x96009F x98EDBF xA0EF00 xA299F8 xA98D71 xAB9DE9 xB511A8 xB533D3 xC0970C xC690E9 xE20DB2 xEB7C20 xF1FF9E xF3E9F2 xFCD455 }
@@ -2421,6 +2427,7 @@ STATES = {
 	    add_homeland = cu:bidan
 	    add_homeland = cu:haratin
 	    add_claim = c:MOR
+	    add_claim = c:Y29
 	}
 	s:STATE_MARRAKECH = {
 		create_state = {
@@ -2497,6 +2504,7 @@ STATES = {
 	    add_homeland = cu:tuareg
 	}
 	s:STATE_EAST_SAHARA = {
+
 	    create_state = {
 	        country = c:ADG
 	        owned_provinces = { x31F0C0 x4F745C x587872 x5BE8F0 x6C003A xD08147 }
@@ -2507,6 +2515,7 @@ STATES = {
 	    }
 	    add_homeland = cu:tuareg
 	    add_homeland = cu:berber
+	    add_claim = c:FRA
 	}
 	s:STATE_ALGIERS = {
 		create_state = {
@@ -2758,6 +2767,7 @@ STATES = {
 	    add_homeland = cu:kavango_bantu
 	}
 	s:STATE_EAST_ANGOLA = {
+
 	    create_state = {
 	        country = c:ANG
 	        owned_provinces = { x03B050 x13337D x14060C x19E0EC x1BA1E9 x228781 x26E40F x2A05BC x2DA6B2 x300F17 x32C7A1 x35E7D8 x394358 x39697F x397ECF x3CC799 x44D11A x4563FE x4B8691 x566AB9 x5EC8D3 x5EF091 x61B712 x6EF4BD x72E7AB x7482EB x75CE39 x75CF43 x7E292B x7F4B2D x8502C4 x987C51 x9B54A4 x9FF064 xA56219 xA58230 xAA8201 xADB506 xB3A1E9 xB44BFF xBA7076 xBD3AD2 xC16219 xCB202F xCD7DCB xD0957F xD13871 xD442BF xD964CA xD9E162 xDA9B9B xE63D84 xEF87AC xF08800 xF0D700 xF186BA xF27BBF xF9B5FA xFE25B5 xFE2EC3 }
@@ -2789,6 +2799,7 @@ STATES = {
 	    add_homeland = cu:ovimbundu
 	    add_homeland = cu:lunda
 	    add_homeland = cu:kavango_bantu
+	    add_claim = c:ANG
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		create_state = {
@@ -2840,6 +2851,7 @@ STATES = {
 	    add_homeland = lacustrine_bantu
 	}
 	s:STATE_ZAMBEZIA = {
+
 	    create_state = {
 	        country = c:E01
 	        owned_provinces = { x42453B xF2EC6F }
@@ -2855,6 +2867,7 @@ STATES = {
 	    add_homeland = cu:sena
 	    add_homeland = cu:shona
 	    add_homeland = cu:lacustrine_bantu
+	    add_claim = c:MOZ
 	}
 	s:STATE_EASTERN_CAPE = {
 		create_state = {
@@ -4186,6 +4199,7 @@ STATES = {
 	    add_homeland = cu:somali
 	}
 	s:STATE_NAMAQUALAND = {
+
 	    create_state = {
 	        country = c:KID
 	        owned_provinces = { x071B9C x078A45 x14E0BE x1CB738 x21DD01 x310FAB x509BE4 x7B1965 x8947C8 x8D6395 x90470A x952547 x9C401C xA4D764 xA675EF xA7D909 xAD1C61 xAE08D3 xB30706 xBA68AA xBF1B94 xC80AD0 xE1AA90 xE4DABE xE6D4ED xEC2F99 xEE0812 xF47B63 }
@@ -4196,8 +4210,10 @@ STATES = {
 	    }
 	    add_homeland = cu:khoisan
 	    add_homeland = cu:tswana
+	    add_claim = c:NAI
 	}
 	s:STATE_HEREROLAND = {
+
 	    create_state = {
 	        country = c:KID
 	        owned_provinces = { x0B7112 x229650 x307287 x31C0D0 x3427F8 x44827F x52CD99 x5901AF x59AF4D x6FE9F7 x7D55B9 x880037 x9E8D05 x9F987B xAE2535 xC0F73F xD3A784 xDD25A3 }
@@ -4221,8 +4237,10 @@ STATES = {
 	    add_homeland = cu:herero
 	    add_homeland = cu:khoisan
 	    add_homeland = cu:kavango_bantu
+	    add_claim = c:NAI
 	}
 	s:STATE_ZAMBEZI = {
+
 	    create_state = {
 	        country = c:E01
 	        owned_provinces = { xFFC747 }
@@ -4234,6 +4252,7 @@ STATES = {
 	    add_homeland = cu:shona
 	    add_homeland = cu:nguni
 	    add_homeland = cu:lacustrine_bantu
+	    add_claim = c:ZIM
 	}
 	s:STATE_KENYA = {
 		create_state = {
@@ -4349,6 +4368,7 @@ STATES = {
 	    add_homeland = cu:luo
 	}
 	s:STATE_MAURITANIA = {
+
 	    create_state = {
 	        country = c:E07
 	        owned_provinces = { x0D57A1 x13CA97 x17D963 x1E38D7 x1F8376 x3A6183 x5F1D19 xAC39A0 xB274BE xB47854 xB55389 xB6F68E xC41F5C xD2ED35 xD34BB3 xE7FC7D xF1E6C3 xFB39E4 }
@@ -4359,8 +4379,11 @@ STATES = {
 	    }
 	    add_homeland = cu:bidan
 	    add_homeland = cu:haratin
+	    add_claim = c:MAL
 	}
 	s:STATE_INNER_MAURITANIA = {
+
+
 	    create_state = {
 	        country = c:E07
 	        owned_provinces = { x15A720 x221FEA x44DE38 x5FED21 x61D564 x70660A x71E938 x8400B9 x849CB5 x86526E x8E2538 x8FA78B x91F526 x965518 xA77A56 xB53884 xB641E9 xC20B5C xC3567A xCBB3C9 xFAA6D6 xFBC3C9 }
@@ -4380,6 +4403,7 @@ STATES = {
 	    add_homeland = cu:bidan
 	    add_homeland = cu:mande
 	    add_homeland = cu:haratin
+	    add_claim = c:MAL
 	}
 	s:STATE_EASTERN_MALI = {
 	    create_state = {
@@ -4407,6 +4431,8 @@ STATES = {
 		add_homeland = cu:mande
 	}
 	s:STATE_TIMBUKTU = {
+
+
 	    create_state = {
 	        country = c:ADG
 	        owned_provinces = { x0057EE x2D0BB5 x378535 x568464 xAA431F xABC548 xE6F8CB xE8E178 }
@@ -4423,6 +4449,7 @@ STATES = {
 	    add_homeland = cu:songhai
 	    add_homeland = cu:fulbe
 	    add_homeland = cu:mande
+	    add_claim = c:MAL
 	}
 	s:STATE_HAUSALAND = {
 	    create_state = {
@@ -4621,30 +4648,34 @@ STATES = {
 		add_homeland = cu:fluvian_bantu
 	}
 	s:STATE_UGANDA = {
-		create_state = {
-			country = c:UGA
-			owned_provinces = {
-				xD13A93 xEA2372 xA9859E x42EDCA xFB4215 x55FC3E x17F11F x40D607 xC2D6DE x9130A0 x228B9A x00B0A9 xF9C916 x357FAC xE0A010 x542630 x1D33CE x0DF37F x721418 x7ACC72 x51AC81 x206060 xE3B2A2 xEE81EC xA4C4FC x7796E6 xD13D78 x19F762 x05C5F1 xA09C30 x5C340A x7CE297 xCD8D63 x1DDAD8 xE1A791 x1D4C32 xCE3CD0 x6530A0 x7183F2 x7183C4
-			}
-		}
-		add_homeland = cu:baganda
-		add_homeland = cu:lacustrine_bantu
-		add_homeland = cu:luo
+	    create_state = {
+	        country = c:E08
+	        owned_provinces = { x05C5F1 x19F762 x542630 }
+	    }
+	    create_state = {
+	        country = c:UGA
+	        owned_provinces = { x00B0A9 x0DF37F x17F11F x1D33CE x1D4C32 x1DDAD8 x206060 x228B9A x357FAC x40D607 x42EDCA x51AC81 x55FC3E x5C340A x6530A0 x7183C4 x7183F2 x721418 x7796E6 x7ACC72 x7CE297 x9130A0 xA09C30 xA4C4FC xA9859E xC2D6DE xCD8D63 xCE3CD0 xD13A93 xD13D78 xE0A010 xE1A791 xE3B2A2 xEA2372 xEE81EC xF9C916 xFB4215 }
+	    }
+	    add_homeland = cu:baganda
+	    add_homeland = cu:lacustrine_bantu
+	    add_homeland = cu:luo
 	}
 	s:STATE_EQUATORIA = {
-		create_state = {
-			country = c:SUD
-			owned_provinces = {
-				x5556B9 x169409 xF2A9C3 xEA9F9F x512903 xF73FA3 xE39A37 xE8D379 xB0F9B2 x26B47D xAC2570 xECC166 x836E96 x3864B4 x90C4B5 x405DD1 x409D75 x0B3FB6 x281B17 x40A050 x06F011 x68CEAC x87F764 x025267 xB1C8B3 x5852E5 xA2D4A1 x287FA3 x6808DA x2F3E88 x4FFD57 xE63DDF x6875E7 x4B02C7 xBFB2D2 xA02111 xE310D0 x749BFD x19094A xEB0C25 xC6CE6C x49DC0E xA479C2 x6512D9 x178C0B x93FD41 xD57816 x597CAA x65AAF8 xDC6D9E xF9F832 xFD9BB6 x70B4C9 xBADB79 x1D57FB x3A7DC2 x4D69FC xCC55B4 x6BC8A3 xE4BC4E x3EBCE9 x87F523 x052C31 xD13168 xE14193 xE53199 x387C9A xCAF1C3 x77E0D1 xE9B9DA x07EC0A x01E0D0 x76BED4 x2B99DD xFF0E29 xFCECBC xD4BDA3 xC3E885 xF39844 x117111 xB39074 xA414BD x992042 xA3790C x97BCA5 x806050 xB5B4CA xBE1B0B xC10150 x95DC14 xC890D8 x3173A5 x7E841A x42AAF1 x997E00 x81EF4E x01C6DC x1EDEEF x1DA390 x8D0D42 xC8E467 x5C007E x458A9A x13B0BB x191199
-			}
-		}
-		add_homeland = nuer
-		add_homeland = azande
-		add_homeland = luo
-		add_homeland = dinka
-		add_homeland = nilotic
-		add_homeland = fur
-		add_homeland = nuba
+	    create_state = {
+	        country = c:E08
+	        owned_provinces = { x4FFD57 x5852E5 x6808DA x6875E7 xA2D4A1 xB1C8B3 xC6CE6C }
+	    }
+	    create_state = {
+	        country = c:SUD
+	        owned_provinces = { x01C6DC x01E0D0 x025267 x052C31 x06F011 x07EC0A x0B3FB6 x117111 x13B0BB x169409 x178C0B x19094A x191199 x1D57FB x1DA390 x1EDEEF x26B47D x281B17 x287FA3 x2B99DD x2F3E88 x3173A5 x3864B4 x387C9A x3A7DC2 x3EBCE9 x405DD1 x409D75 x40A050 x42AAF1 x458A9A x49DC0E x4B02C7 x4D69FC x512903 x5556B9 x597CAA x5C007E x6512D9 x65AAF8 x68CEAC x6BC8A3 x70B4C9 x749BFD x76BED4 x77E0D1 x7E841A x806050 x81EF4E x836E96 x87F523 x87F764 x8D0D42 x90C4B5 x93FD41 x95DC14 x97BCA5 x992042 x997E00 xA02111 xA3790C xA414BD xA479C2 xAC2570 xB0F9B2 xB39074 xB5B4CA xBADB79 xBE1B0B xBFB2D2 xC10150 xC3E885 xC890D8 xC8E467 xCAF1C3 xCC55B4 xD13168 xD4BDA3 xD57816 xDC6D9E xE14193 xE310D0 xE39A37 xE4BC4E xE53199 xE63DDF xE8D379 xE9B9DA xEA9F9F xEB0C25 xECC166 xF2A9C3 xF39844 xF73FA3 xF9F832 xFCECBC xFD9BB6 xFF0E29 }
+	    }
+	    add_homeland = nuer
+	    add_homeland = azande
+	    add_homeland = luo
+	    add_homeland = dinka
+	    add_homeland = nilotic
+	    add_homeland = fur
+	    add_homeland = nuba
 	}
 	s:STATE_VOLTA = {
 	    create_state = {
