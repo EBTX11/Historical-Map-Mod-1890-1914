@@ -1,4 +1,68 @@
-﻿
+﻿E08 = {
+    color = { 40 217 130 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { bedouin }
+    capital = STATE_GOLD_COAST
+    religion = animist
+}
+E07 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { maghrebi }
+    capital = STATE_GOLD_COAST
+    religion = animist
+}
+E06 = {
+    color = { 196 55 60 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { british }
+    capital = STATE_GOLD_COAST
+    religion = protestant
+}
+E05 = {
+    color = { 196 55 60 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { british }
+    capital = STATE_EAST_HAUSALAND
+    religion = protestant
+}
+E04 = {
+    color = { 56 59 110 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { british }
+    capital = STATE_EAST_HAUSALAND
+    religion = protestant
+}
+E03 = {
+    color = { 131 52 201 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { equatorial_bantu }
+    capital = STATE_BORNU
+    religion = animist
+}
+E02 = {
+    color = { 180 213 47 }
+    country_type = colonial
+    tier = kingdom
+    cultures = { equatorial_bantu }
+    capital = STATE_NIGER_DELTA
+    religion = animist
+}
+E01 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { makua }
+    capital = STATE_LOURENCO_MARQUES
+    religion = animist
+}
+
 Y46= { 
 	color = { 56 85 199 }
 	
@@ -34,6 +98,231 @@ Y44= {
 	capital = STATE_WESTERN_HUBEI
 }
 
+Y43= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { kavango_bantu } 
+	capital = STATE_ZAMBIA
+}
+
+
+Y42= { 
+	color = { 132 94 51 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { hausa } 
+	capital = STATE_OUTER_HAUSALAND
+}
+
+
+Y41= { 
+	color = { 170 181 138 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { hausa } 
+	capital = STATE_OUTER_HAUSALAND
+}
+
+
+Y40= { 
+	color = { 177 151 92 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { hausa } 
+	capital = STATE_OUTER_HAUSALAND
+}
+
+
+Y39= { 
+	color = { 91 84 114 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { french } 
+	capital = STATE_ERITREA
+}
+
+
+Y38= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { lunda } 
+	capital = STATE_EAST_ANGOLA
+}
+
+
+Y37= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { lunda } 
+	capital = STATE_SOUTH_ANGOLA
+}
+
+
+Y36= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { lunda } 
+	capital = STATE_EAST_ANGOLA
+}
+
+
+Y35= { 
+	color = { 142 122 187 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { bakongo } 
+	capital = STATE_EAST_ANGOLA
+}
+
+
+Y34= { 
+	color = { 104 173 108 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { portuguese } 
+	capital = STATE_MOCAMBIQUE
+}
+
+
+Y33= { 
+	color = { 179 111 101 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { portuguese } 
+	capital = STATE_LOURENCO_MARQUES
+}
+
+
+Y32= { 
+	color = { 160 180 68 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { british } 
+	capital = STATE_BENIN
+}
+ 
+Y31= { 
+	color = { 183 100 80 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { equatorial_bantu } 
+	capital = STATE_NORTH_CAMEROON
+}
+
+
+Y30= { 
+	color = { 154 200 135 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { equatorial_bantu } 
+	capital = STATE_NORTH_CAMEROON
+}
+
+
+Y29= { 
+	color = { 199 89 147 }
+
+	country_type = colonial #recognized
+
+	tier = kingdom
+	
+	cultures = { spanish } 
+	capital = STATE_WEST_SAHARA
+}
+
+
+Y28= { 
+	color = { 164 187 124 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { baguirmi } 
+	capital = STATE_WADDAI
+}
+
+
+Y27= { 
+	color = { 82 102 52 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { baguirmi } 
+	capital = STATE_WADDAI
+}
+
+
+Y26= { 
+	color = { 176 57 132 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { french } 
+	capital = STATE_EASTERN_MALI
+}
+
+
+Y25= { 
+	color = { 148 184 110 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { sotho } 
+	capital = STATE_ZULULAND
+}
 
 Y19= { 
 	color = { 90 205 112 }
@@ -45,6 +334,59 @@ Y19= {
 	cultures = { yenkee } 
 	capital = STATE_ARIZONA
 }
+
+SOM = {
+	color = { 255  182  193 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+SOL = {
+	color = { 48  25  52 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+#Inner Mongolia
+IMG = {
+	color = { 83 65 167 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = gelugpa
+	capital = STATE_HINGGAN
+}
+
+KID = { #Kalahari Desert
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_NAMAQUALAND
+	cultures = { russian }
+}
+
+CGB = { #Congo Basin
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_EAST_ANGOLA
+	cultures = { russian }
+}
+
 
 STN = {
 	color = { 180  158  127 }

@@ -26,6 +26,10 @@
 			country = c:PCO
 			type = colony #puppet
 		}
+		create_diplomatic_pact = {
+			country = c:Y29
+			type = colony #puppet
+		}
 	}
 	c:USA = {
 		create_diplomatic_pact = {
@@ -63,10 +67,26 @@
 			country = c:MOZ
 			type = colony
 		}
+		create_diplomatic_pact = {
+			country = c:KON
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:Y34
+			type = chartered_company
+		}
+		create_diplomatic_pact = {
+			country = c:Y33
+			type = chartered_company
+		}
 	}
     c:BEL = {
 		create_diplomatic_pact = {
 			country = c:TCO
+			type = colony #personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:E08
 			type = colony #personal_union
 		}
 	}
@@ -249,6 +269,10 @@
 			type = colony #puppet
 		}
 		create_diplomatic_pact = {
+			country = c:NAL
+			type = colony #puppet
+		}
+		create_diplomatic_pact = {
 			country = c:STN
 			type = colony #puppet
 		}
@@ -351,15 +375,23 @@
         create_diplomatic_pact = {
 			country = c:KEN
 			type = colony
-		}
+		} 
         create_diplomatic_pact = {
-			country = c:ASH
+			country = c:E04
 			type = colony
 		}	
-		create_diplomatic_pact = {
-			country = c:SOK
+        create_diplomatic_pact = {
+			country = c:E06
 			type = colony
-		}			
+		}	
+        create_diplomatic_pact = {
+			country = c:E05
+			type = colony
+		}	
+        create_diplomatic_pact = {
+			country = c:Y32
+			type = colony
+		}	 		
         create_diplomatic_pact = {
 			country = c:BLZ
 			type = colony

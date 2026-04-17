@@ -1,4 +1,36 @@
 ﻿l_english:
+
+E08:0 "Lado Enclave"
+E08_ADJ:0 "Lado Enclave"
+
+
+E07:0 "Western Sahara"
+E07_ADJ:0 "Western Sahara"
+
+
+E06:0 "Gold Coast"
+E06_ADJ:0 "Gold Coast"
+
+
+E05:0 "Lagos Colony"
+E05_ADJ:0 "Lagos Colony"
+
+
+E04:0 "Northern Territories of the Gold Coast"
+E04_ADJ:0 "Northern Territories of the Gold Coast"
+
+
+E03:0 "Emir of the Kanem–Bornu"
+E03_ADJ:0 "Emir of the Kanem–Bornu"
+
+
+E02:0 "Aro Confederacy"
+E02_ADJ:0 "Aro Confederacy"
+
+
+E01:0 "Kingdom of Barue"
+E01_ADJ:0 "Kingdom of Barue"
+
   Y46:0 "Philippine Revolutionary Army"
   Y46_ADJ:0 "Philippine Revolutionary Army"
   Y45:0 "Cuban Liberation Army"
@@ -13,6 +45,73 @@
   sadi: "Sadi"
   carnot: "Carnot"
 
+  dyn_c_ZIM_01:0 "Rhodesia Protectorate"
+  ZIM_ADJ:0 "Rhodesia Protectorate"
+  dyn_c_TRN_01:0 "South African Republic"
+  TRN_ADJ:0 "South African Republic"
+  dyn_c_MAD_01:0 "Malagasy Protectorate"
+  MAD_ADJ:0 "Malagasy Protectorate"
+  dyn_c_SUD_01:0 "Mahdist State"
+  SUD_ADJ:0 "Mahdist State"
+  Y19:0 "Arizona Territory"
+  Y19_ADJ:0 "Arizona Territory"
+  Y19:0 "British Arctic Territories"
+  Y19_ADJ:0 "British Arctic Territories"
+  Y18:0 "British Arctic Territories"
+  Y18_ADJ:0 "British Arctic Territories"
+  Y18:0 "Victoria"
+  Y18_ADJ:0 "Victoria"
+  Y17:0 "Queensland"
+  Y17_ADJ:0 "Queensland"
+
+  Y43:0 "Lozi kingdom"
+  Y43_ADJ:0 "Lozi kingdom"
+  Y42:0 "Maradi Kingdom"
+  Y42_ADJ:0 "Maradi Kingdom"
+  Y41:0 "Tessaoua"
+  Y41_ADJ:0 "Tessaoua"
+  Y40:0 "Kingdom of Gobir"
+  Y40_ADJ:0 "Kingdom of Gobir"
+  Y39:0 "French Somaliland"
+  Y39_ADJ:0 "French Somaliland"
+  Y38:0 "Chokwe"
+  Y38_ADJ:0 "Chokwe"
+  Y37:0 "Huambo"
+  Y37_ADJ:0 "Huambo"
+  Y36:0 "Kingdom of Bailundo"
+  Y36_ADJ:0 "Kingdom of Bailundo"
+  Y35:0 "Dembos"
+  Y35_ADJ:0 "Dembos"
+  Y34:0 "Niassa Company"
+  Y34_ADJ:0 "Niassa Company"
+  Y33:0 "Mozambique Company"
+  Y33_ADJ:0 "Mozambique Company"
+  Y32:0 "Royal Niger Company"
+  Y32_ADJ:0 "Royal Niger Company"
+  Y31:0 "Bauchi Emirate"
+  Y31_ADJ:0 "Bauchi Emirate"
+  Y30:0 "Adamawa Emirate"
+  Y30_ADJ:0 "Adamawa Emirate"
+  Y29:0 "Rio de Oro"
+  Y29_ADJ:0 "Rio de Oro"
+  Y28:0 "Dar al Kuti"
+  Y28_ADJ:0 "Dar al Kuti"
+  Y27:0 "Sultanate of Bagirmi"
+  Y27_ADJ:0 "Sultanate of Bagirmi"
+  Y26:0 "French Sudan"
+  Y26_ADJ:0 "French Sudan"
+  Y25:0 "Amatongaland"
+  Y25_ADJ:0 "Amatongaland"
+  Y24:0 "Idaho Territory"
+  Y24_ADJ:0 "Idaho Territory"
+  Y23:0 "Dakota Territory"
+  Y23_ADJ:0 "Dakota Territory"
+  Y22:0 "Wyoming Territory"
+  Y22_ADJ:0 "Wyoming Territory"
+  Y21:0 "Utah Territory"
+  Y21_ADJ:0 "Utah Territory"
+  Y20:0 "Arizona Territory"
+  Y20_ADJ:0 "Arizona Territory"
 
   ############################################################################################################################################
   ############################################################################################################################################
@@ -954,8 +1053,8 @@
   SLV_ADJ:0 "Slovak"
   SNG:0 "Sangu"
   SNG_ADJ:0 "Sangu"
-  SOK:0 "Nigeria"
-  SOK_ADJ:0 "Niger"
+  # SOK:0 "Nigeria"
+  # SOK_ADJ:0 "Niger"
   SPA:0 "Spain"
   SPA_ADJ:0 "Spanish"
   SRR:0 "Serer"

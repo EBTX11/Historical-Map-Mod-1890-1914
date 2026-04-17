@@ -94,7 +94,7 @@ MOR = {
 NAL = {
 	color = { 106  178  46 }
 
-	country_type = recognized
+	country_type = colonial
 
 	tier = principality
 
@@ -286,7 +286,7 @@ HRO = {
 }
 
 OVB = {
-	color = { 240 40 121 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -297,7 +297,7 @@ OVB = {
 }
 
 SAN = {
-	color = { 110 130 37 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -308,7 +308,7 @@ SAN = {
 }
 
 LZO = {
-	color = { 176 106 168 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -319,7 +319,7 @@ LZO = {
 }
 
 TSW = {
-	color = { 117 170 219 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -374,7 +374,7 @@ BMB = {
 }
 
 KSN = {
-	color = { 102 105 101 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -1039,8 +1039,8 @@ AIR = {
 }
 
 MSN = {
-	color = { 230 231 62 }
-	country_type = unrecognized
+	color = { 250 249 245 }
+	country_type = decentralized
 
 	tier = principality
 
@@ -1294,7 +1294,7 @@ DLA = {
 }
 
 TBI = {
-	color = { 220 210 97 }
+	color = { 250 249 245 }
 	country_type = decentralized
 
 	tier = principality
@@ -1334,7 +1334,7 @@ OUA = {
 }
 
 ADG = {
-	color = { 215 132 165 }
+	color = { 250 249 245 }
 	country_type = decentralized
 
 	tier = principality
@@ -1762,7 +1762,7 @@ UTR = { # Utetera
 }
 
 OGD = { # Ogaden
-	color = { 155 188 99 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -1996,7 +1996,7 @@ MZB = {
 }
 
 TEK = {
-	color = { 93 64 156 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -2007,7 +2007,7 @@ TEK = {
 }
 
 RGB = { # Hell yeah
-	color = { 231 134 43 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
