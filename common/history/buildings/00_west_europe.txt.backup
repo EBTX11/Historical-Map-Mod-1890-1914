@@ -14955,7 +14955,7 @@
 				}
 			}
 			create_building = {
-				building = "building_kaiserforum_1"
+				building = "building_kaiserforum_4"
 				add_ownership = {
 					country = {
 						country = "c:AUS"

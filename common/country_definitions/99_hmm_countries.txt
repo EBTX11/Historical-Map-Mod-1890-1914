@@ -524,7 +524,7 @@ COG = {
 
 	tier = principality
 
-	cultures = { french maghrebi bakongo }
+	cultures = { french bedouin fur equatorial_bantu teda }
 	capital = STATE_CONGO
 }
 SOH = {

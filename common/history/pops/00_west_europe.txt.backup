@@ -153,11 +153,21 @@
  		region_state:DEN = {
  			create_pop = {
  				culture = danish
- 				size = 412
+ 				size = 411
  			}
  			create_pop = {
  				culture = inuit
- 				size = 10768
+ 				size = 10737
+ 			}
+ 		}
+ 		region_state:E07 = {
+ 			create_pop = {
+ 				culture = danish
+ 				size = 1
+ 			}
+ 			create_pop = {
+ 				culture = inuit
+ 				size = 31
  			}
  		}
  	}
