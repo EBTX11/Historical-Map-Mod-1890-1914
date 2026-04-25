@@ -97,12 +97,11 @@
 
 	c:GER ?= {
 		create_power_bloc = {
-			name = ger_empire
+			name = GER_POWER_BLOCS
 			map_color = { 0 0 0 }
 			founding_date = 1836.1.1
 			identity = identity_sovereign_empire
 			principle = principle_vassalization_3
-			
 		}
 	}
 
