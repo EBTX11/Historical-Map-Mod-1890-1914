@@ -1869,19 +1869,34 @@
  		}
  	}
  	s:STATE_EAST_SWITZERLAND = { 
+ 		region_state:LIE = { 
+ 			create_pop = {
+ 				culture = alemannic
+ 				religion = catholic
+ 				size = 9332
+ 			}
+ 			create_pop = {
+ 				culture = alemannic
+ 				size = 2898
+ 			}
+ 			create_pop = {
+ 				culture = north_italian
+ 				size = 1393
+ 			}
+ 		}
  		region_state:SWI = { 
  			create_pop = {
  				culture = alemannic
  				religion = catholic
- 				size = 1251426
+ 				size = 933926
  			}
  			create_pop = {
  				culture = alemannic
- 				size = 388400
+ 				size = 289858
  			}
  			create_pop = {
  				culture = north_italian
- 				size = 186788
+ 				size = 139397
  			}
  		}
  	}

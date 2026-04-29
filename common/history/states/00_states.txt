@@ -5647,9 +5647,8 @@ STATES = {
 	s:STATE_SAKHALIN = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { xA060DF 
-				xF1B27F x041FF2 x1CAAE0 x9628A0 x4ED0E9 x768145 xDFA060 x1B4E8D x1CA52F xC3C06E xEAFA0A x22C190 x7608FE xB8277E x503660 x02BAB7 xF15B61 xBE16C2 x3405B2 xA5E421 xE99CEA x47B65C xD0294D x9E3A0A x2010C0 x2492AA
-			}
+			owned_provinces = { x601140 xA060DF x1E5261 x5B9D2D x7F67EF x3405B2 xBE16C2 xF15B61 xDFA060 x7608FE x1CAAE0 xEAFA0A x2010C0 x9E3A0A x2492AA xD0294D x47B65C xE99CEA xA5E421 xF1B27F x041FF2  x9628A0 x4ED0E9 x768145 x1B4E8D x1CA52F xC3C06E x22C190  xB8277E x503660 x02BAB7 }
+
 		}
 		add_homeland = siberian
 		add_homeland = ainu
@@ -5657,21 +5656,13 @@ STATES = {
 		add_claim = c:RUS
 	}
 	s:STATE_HOKKAIDO = {
-		create_state = {
-			country = c:AIN
-			owned_provinces = {
-				x6275D4 x65D8B2 x5F2A24 x103C2B xEEB7F4 x413F60 x03E00D x86757A x420E86 xC85C0C x1E9A93 x70C55B x17C8CA x210B6E x85C158 x2090C0 x3EA37A x493B76 x9E56C2 xA011C0 x3974DA
-			}
-		}
-		create_state = {
-			country = c:JAP
-			owned_provinces = {
-				xA090C0 x40BDB8 xF17C01
-			}
-		}
-		add_homeland = cu:japanese
-		add_homeland = cu:ainu
-		add_claim = c:JAP
+	    create_state = {
+	        country = c:JAP
+	        owned_provinces = { x03E00D x103C2B x17C8CA x1E9A93 x2090C0 x210B6E x3974DA x3EA37A x40BDB8 x413F60 x420E86 x493B76 x5F2A24 x6275D4 x65D8B2 x70C55B x85C158 x86757A x9E56C2 xA011C0 xA090C0 xC85C0C xEEB7F4 xF17C01 }
+	    }
+	    add_homeland = cu:japanese
+	    add_homeland = cu:ainu
+	    add_claim = c:JAP
 	}
 	s:STATE_TOHOKU = {
 		create_state = {
