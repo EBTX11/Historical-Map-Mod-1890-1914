@@ -405,6 +405,19 @@
 				activate_production_methods={ "pm_traditional_art" "pm_traditional_patronage" "pm_freedom_of_movement_no_effect" }
 			}
 		}
+		region_state:AUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=48
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_advanced_tactics_training" }
+			}
+		}
 	}
 	s:STATE_GREATER_POLAND={
 		region_state:POL={

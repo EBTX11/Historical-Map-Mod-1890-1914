@@ -90,51 +90,73 @@
  			}
  		}
  	}
- 	s:STATE_SINAI = { 
- 		region_state:EGY = { 
+ 	s:STATE_SINAI = {
+ 		region_state:EGY = {
  			create_pop = {
  				culture = misri
- 				size = 2220751
+ 				size = 1879097
  			}
  			create_pop = {
  				culture = north_caucasian
- 				size = 13390
+ 				size = 11330
  			}
  			create_pop = {
  				culture = sephardic
- 				size = 1004
+ 				size = 850
  			}
  			create_pop = {
  				culture = bedouin
- 				size = 15988
- 			}
- 		}
- 		region_state:GBR = { 
- 			create_pop = {
- 				culture = british
- 				size = 100265
+ 				size = 13528
  			}
  			create_pop = {
  				culture = british
- 				religion = catholic
- 				size = 2
+ 				size = 84841
  			}
  			create_pop = {
  				culture = australian
- 				size = 22
+ 				size = 19
  			}
  			create_pop = {
  				culture = anglo_canadian
- 				size = 5
+ 				size = 4
  			}
  			create_pop = {
  				culture = scottish
- 				size = 46
+ 				size = 41
+ 			}
+ 		}
+ 		region_state:GBR = {
+ 			create_pop = {
+ 				culture = misri
+ 				size = 341654
+ 			}
+ 			create_pop = {
+ 				culture = north_caucasian
+ 				size = 2060
+ 			}
+ 			create_pop = {
+ 				culture = sephardic
+ 				size = 154
+ 			}
+ 			create_pop = {
+ 				culture = bedouin
+ 				size = 2460
+ 			}
+ 			create_pop = {
+ 				culture = british
+ 				size = 15426
+ 			}
+ 			create_pop = {
+ 				culture = australian
+ 				size = 3
+ 			}
+ 			create_pop = {
+ 				culture = anglo_canadian
+ 				size = 1
  			}
  			create_pop = {
  				culture = scottish
- 				religion = catholic
- 				size = 2
+ 				size = 7
  			}
  		}
  	}
@@ -665,37 +687,31 @@
  			}
  		}
  	}
- 	s:STATE_LIBYA = { 
- 		region_state:SEY = { 
+ 	s:STATE_LIBYA = {
+ 		region_state:ITC = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 226905
  			}
  		}
- 		region_state:TRI = { 
+ 		region_state:SEY = {
  			create_pop = {
  				culture = maghrebi
- 				size = 750000
- 			}
- 		}
- 		region_state:ITC = { 
- 			create_pop = {
- 				culture = maghrebi
- 				size = 250000
+ 				size = 1274160
  			}
  		}
  	}
- 	s:STATE_LIBYAN_DESERT = { 
- 		region_state:SEY = { 
+ 	s:STATE_LIBYAN_DESERT = {
+ 		region_state:SEY = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 751597
  			}
  		}
- 		region_state:SEY = { 
+ 		region_state:TRI = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 250533
  			}
  		}
  	}

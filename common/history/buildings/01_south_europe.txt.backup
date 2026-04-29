@@ -478,6 +478,19 @@
 				activate_production_methods={ "pm_assembly_lines_building_arms_industry" "pm_recoiled_barrels" }
 			}
 		}
+		region_state:LIE={
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_PIEDMONT={
 		region_state:ITA={

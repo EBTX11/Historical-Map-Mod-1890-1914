@@ -7290,11 +7290,356 @@
 				add_ownership={
 					country={
 						country="c:MOO"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_unrefrigerated" "pm_steam_trawlers" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=15
+					}
+					country={
+						country="c:MAL"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_steam_threshers" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=5
+					}
+					building={
+						type="building_textile_mill"
+						country="c:MOO"
+						levels=3
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=3
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_RHONE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=2
+						region="STATE_SAVOY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_NORMANDY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_mechanized_looms" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=2
+					}
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=1
+						region="STATE_MAINE_ANJOU"
+					}
+					country={
+						country="c:MAL"
+						levels=3
+					}
+					building={
+						type="building_manor_house"
+						country="c:MAL"
+						levels=1
+						region="STATE_SENEGAL"
+					}
+					building={
+						type="building_manor_house"
+						country="c:MAL"
+						levels=3
+						region="STATE_VOLTA"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MAL"
+						levels=1
+						region="STATE_VOLTA"
+					}
+					building={
+						type="building_manor_house"
+						country="c:MAL"
+						levels=1
+						region="STATE_WESTERN_MALI"
+					}
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=2
+						region="STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_silk_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_naval_base"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=60
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_power_of_the_purse" "pm_power_of_the_purse" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					building={
+						type="building_port"
+						country="c:MOO"
+						levels=1
+						region="STATE_PROVENCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_industrial_port" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=5
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=2
+						region="STATE_LANGUEDOC"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steel_passenger_carriages" "pm_early_trains" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=30
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" "pm_mechanized_slaughtering" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_rotary_valve_engine_building_arms_industry" "pm_muskets" }
+			}
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_vacuum_canning" "pm_manual_dough_processing" "pm_disabled_distillery" "pm_baking_powder" }
+			}
+			create_building={
+				building="building_furniture_manufactory"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=3
+					}
+					building={
+						type="building_furniture_manufactory"
+						country="c:MOO"
+						levels=1
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_GUYENNE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_mechanized_workshops" "pm_precision_tools" "pm_watertube_boiler_building_furniture_manufactory" }
+			}
+			create_building={
+				building="building_glassworks"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_glassblowing" "pm_disabled_ceramics" "pm_crystal_glass" }
+			}
+			create_building={
+				building="building_paper_mill"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_bleached_paper" "pm_rotary_valve_engine_building_paper_mill" }
+			}
+			create_building={
+				building="building_tooling_workshop"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steel" "pm_assembly_lines_building_tooling_workshop" }
+			}
+			create_building={
+				building="building_synthetics_plant"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=4
+					}
+					building={
+						type="building_synthetics_plant"
+						country="c:MOO"
+						levels=1
+						region="STATE_PROVENCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_dye_production" "pm_no_artificial_fibers" }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
+			}
+			create_building={
+				building="building_power_plant"
+				add_ownership={
+					building={
+						type="building_power_plant"
+						country="c:MOO"
+						levels=1
+						region="STATE_PROVENCE"
+					}
+				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_early_power_plant" }
+			}
+			create_building={
+				building="building_shipyard"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_metal_shipbuilding" }
+			}
+			create_building={
+				building="building_military_shipyard"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_military_shipbuilding_steam" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=35
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
+			create_building={
+				building="building_munition_plant"
+				add_ownership={
+					country={
+						country="c:MAL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_explosive_shells" "pm_rotary_valve_engine_building_munition_plant" }
+			}
+			create_building={
+				building="building_automotive_industry"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_automobile_production" "pm_no_aeroplane_production" "pm_no_tank_production" "pm_automation_disabled" }
 			}
 		}
 	}

@@ -665,37 +665,31 @@
  			}
  		}
  	}
- 	s:STATE_LIBYA = { 
- 		region_state:SEY = { 
+ 	s:STATE_LIBYA = {
+ 		region_state:ITC = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 226905
  			}
  		}
- 		region_state:TRI = { 
+ 		region_state:SEY = {
  			create_pop = {
  				culture = maghrebi
- 				size = 750000
- 			}
- 		}
- 		region_state:ITC = { 
- 			create_pop = {
- 				culture = maghrebi
- 				size = 250000
+ 				size = 1274160
  			}
  		}
  	}
- 	s:STATE_LIBYAN_DESERT = { 
- 		region_state:SEY = { 
+ 	s:STATE_LIBYAN_DESERT = {
+ 		region_state:SEY = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 751597
  			}
  		}
- 		region_state:SEY = { 
+ 		region_state:TRI = {
  			create_pop = {
  				culture = maghrebi
- 				size = 501065
+ 				size = 250533
  			}
  		}
  	}
@@ -744,7 +738,7 @@
  		}
  	}
  	s:STATE_WEST_SAHARA = {
- 		region_state:SHR = {
+ 		region_state:E07 = {
  			create_pop = {
  				culture = berber
  				size = 12604
@@ -766,6 +760,16 @@
  		}
  	}
  	s:STATE_MAURITANIA = {
+ 		region_state:E07 = {
+ 			create_pop = {
+ 				culture = haratin
+ 				size = 25060
+ 			}
+ 			create_pop = {
+ 				culture = fulbe
+ 				size = 3131
+ 			}
+ 		}
  		region_state:MAL = {
  			create_pop = {
  				culture = haratin
@@ -776,18 +780,18 @@
  				size = 8873
  			}
  		}
- 		region_state:SHR = {
- 			create_pop = {
- 				culture = haratin
- 				size = 25060
- 			}
- 			create_pop = {
- 				culture = fulbe
- 				size = 3131
- 			}
- 		}
  	}
  	s:STATE_INNER_MAURITANIA = {
+ 		region_state:E07 = {
+ 			create_pop = {
+ 				culture = mande
+ 				size = 2472
+ 			}
+ 			create_pop = {
+ 				culture = bedouin
+ 				size = 603
+ 			}
+ 		}
  		region_state:MAL = {
  			create_pop = {
  				culture = mande
@@ -806,16 +810,6 @@
  			create_pop = {
  				culture = bedouin
  				size = 192
- 			}
- 		}
- 		region_state:SHR = {
- 			create_pop = {
- 				culture = mande
- 				size = 2472
- 			}
- 			create_pop = {
- 				culture = bedouin
- 				size = 603
  			}
  		}
  		region_state:TEK = {

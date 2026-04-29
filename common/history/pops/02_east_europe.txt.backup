@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
  	s:STATE_INGRIA = { 
  		region_state:RUS = { 
  			create_pop = {
@@ -707,19 +707,75 @@
 		region_state:GER = {
 			create_pop = {
 				culture = north_german
-				size = 490002
+				religion = catholic
+				size = 157662
+			}
+			create_pop = {
+				culture = north_german
+				size = 128996
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 20049
+				size = 13153
 			}
 			create_pop = {
 				culture = polish
-				size = 551997
+				size = 403318
+			}
+			create_pop = {
+				culture = polish
+				religion = protestant
+				size = 21227
 			}
 			create_pop = {
 				culture = czech
-				size = 91567
+				religion = catholic
+				size = 8053
+			}
+			create_pop = {
+				culture = czech
+				religion = protestant
+				size = 3452
+			} 
+		    create_pop = {
+		        culture = north_german
+		        religion = catholic
+		        size = 131778
+		    }
+		    create_pop = {
+		        culture = north_german
+		        size = 55800
+		    }
+		    create_pop = {
+		        culture = polish
+		        size = 125675
+		    }
+		    create_pop = {
+		        culture = polish
+		        religion = protestant
+		        size = 1777
+		    }
+		    create_pop = {
+		        culture = czech
+		        religion = catholic
+		        size = 75000
+		    }
+		    create_pop = {
+		        culture = czech
+		        religion = protestant
+		        size = 5062
+		    }
+		    create_pop = {
+		        culture = ashkenazi
+		        religion = jewish
+		        size = 6896
+		    }
+		}
+		region_state:AUS = {
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 15766
 			}
 		}
 	}

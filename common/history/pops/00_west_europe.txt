@@ -625,31 +625,34 @@
  			}
  		}
  	}
- 	s:STATE_PROVENCE = { 
- 		region_state:FRA = { 
+ 	s:STATE_PROVENCE = {
+ 		region_state:FRA = {
  			create_pop = {
  				culture = occitan
- 				size = 1038088
- 			}
- 			create_pop = {
- 				culture = occitan
- 				religion = protestant
- 				size = 12052
+ 				size = 933458
  			}
  			create_pop = {
  				culture = french
- 				size = 37490
+ 				size = 66649
  			}
  			create_pop = {
  				culture = sephardic
- 				size = 2440
+ 				size = 2169
  			}
  		}
- 		region_state:MOO = { 
-			create_pop = {
-				culture = french
-				size = 37490
-			}
+ 		region_state:MOO = {
+ 			create_pop = {
+ 				culture = occitan
+ 				size = 116682
+ 			}
+ 			create_pop = {
+ 				culture = french
+ 				size = 8331
+ 			}
+ 			create_pop = {
+ 				culture = sephardic
+ 				size = 271
+ 			}
  		}
  	}
  	s:STATE_NORMANDY = { 
@@ -1557,25 +1560,19 @@
  			}
  		}
  	}
- 	s:STATE_BOHEMIA = { 
- 		region_state:AUS = { 
+ 	s:STATE_BOHEMIA = {
+ 		region_state:AUS = {
  			create_pop = {
  				culture = south_german
- 				size = 2500080
+ 				size = 2500095
  			}
  			create_pop = {
  				culture = czech
- 				religion = catholic
  				size = 3576287
  			}
  			create_pop = {
  				culture = ashkenazi
  				size = 75880
- 			}
- 			create_pop = {
- 				culture = south_german
- 				religion = jewish
- 				size = 15
  			}
  		}
  	}
