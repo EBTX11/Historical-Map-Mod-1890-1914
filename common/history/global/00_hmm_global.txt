@@ -1,7 +1,7 @@
 ﻿GLOBAL = {
 	set_global_variable = schleswig_holstein_question_solved
 	set_global_variable = peoples_springtime_happened   
-	set_global_variable = meiji_restoration_complete   
+	set_global_variable = japan_restoration_complete   
 
 	set_global_variable = paris_commune_happened  
 	c:PRC ?= {
