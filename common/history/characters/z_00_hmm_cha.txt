@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {  
-	c:FRA ?= {  #Sadi Carnot
+	c:FRA ?= { #marche pas
         create_character = {
             template =  carnot_character_template
 			ruler = yes
@@ -13,7 +13,7 @@
 	}
 	c:RUS ?= {
         create_character = {
-            template =  romanov_character_template
+            template =  RUS_nicholas_ii
 			ruler = yes
 		}
 	}
@@ -24,18 +24,24 @@
 		}
 	} 
 	c:BEL ?= {
-        create_character = {
-            template =  belgique_character_template
-			ruler = yes
+		random_scope_character = {
+			limit = {
+				has_template = BEL_leopold_II_saxe_coburg_gotha_template
+			}
+			kill_character = yes
 		}
+        create_character = {
+            template =  BEL_leopold_II_saxe_coburg_gotha_template
+			ruler = yes
+		}  
 	}   
 	c:GER ?= {
-        create_character = { #Friedrich Wilhelm
-            template =  hohenzollern_character_template
+        create_character = { #Wilhelm II
+            template =  hohenzollern_3_character_template
 			ruler = yes
 		}
 	}  
-	c:USA ?= {
+	c:USA ?= { #marche pas
         create_character = {
             template =  harrison_character_template
 			ruler = yes
@@ -88,11 +94,5 @@
             template = BRZ_deodoro_da_fonseca
 			ruler = yes
 		}
-	} 
-
-
- 
-
-
-}
-
+	}  
+} 
