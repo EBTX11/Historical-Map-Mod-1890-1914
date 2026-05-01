@@ -3718,17 +3718,7 @@
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:BCE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -4010,6 +4000,19 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_power_plant" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:GBR={
@@ -5923,6 +5926,19 @@
 				reserves=1
 				activate_production_methods={ "pm_steel" "pm_rotary_valve_engine_building_tooling_workshop" }
 			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 		region_state:BIC={
 			create_building={
@@ -7203,17 +7219,7 @@
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:BIC"
-						levels=7
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_power_of_the_purse" }
-			}
+			
 			create_building={
 				building="building_port"
 				add_ownership={
@@ -7951,17 +7957,7 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_barrack"
 				add_ownership={

@@ -937,19 +937,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=1
-						region="STATE_SHAOZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_trade_center"
 				add_ownership={
@@ -1793,17 +1781,7 @@
 				reserves=1
 				activate_production_methods={ "pm_manual_glassblowing" "pm_crystal_glass" "pm_bone_china" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:AUS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -1842,6 +1820,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_normal" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:CHI={
@@ -2200,17 +2191,7 @@
 				reserves=1
 				activate_production_methods={ "pm_manual_glassblowing" "pm_crystal_glass" "pm_bone_china" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:CHI"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -2607,17 +2588,7 @@
 				reserves=1
 				activate_production_methods={ "pm_manual_glassblowing" "pm_crystal_glass" "pm_bone_china" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:E10"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -3014,17 +2985,7 @@
 				reserves=1
 				activate_production_methods={ "pm_manual_glassblowing" "pm_crystal_glass" "pm_bone_china" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:GER"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -3265,17 +3226,7 @@
 				reserves=1
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_normal" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:CHI"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_barrack"
 				add_ownership={
@@ -3499,17 +3450,7 @@
 				reserves=1
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_normal" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:MCH"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_barrack"
 				add_ownership={
@@ -3733,17 +3674,7 @@
 				reserves=1
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_normal" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_barrack"
 				add_ownership={
@@ -4117,16 +4048,18 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
+
+
 			create_building={
-				building="building_naval_base"
+				building="building_naval_administration"
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_jeune_ecole" }
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 	}
@@ -5574,19 +5507,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=11
-						region="STATE_GUANGDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -6114,19 +6035,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:E10"
-						levels=6
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -6444,19 +6353,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GBR"
-						levels=6
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -6774,19 +6671,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ITA"
-						levels=6
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -7104,19 +6989,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:USA"
-						levels=6
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -7434,19 +7307,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=6
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -7732,19 +7593,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:FRA"
-						levels=3
-						region="STATE_ZHEJIANG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
@@ -7811,6 +7660,19 @@
 				subsidized=no
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:ITA={
@@ -7984,19 +7846,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ITA"
-						levels=3
-						region="STATE_ZHEJIANG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
@@ -8195,17 +8045,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+			
 			create_building={
 				building="building_trade_center"
 				add_ownership={
@@ -8236,19 +8076,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:JAP"
-						levels=3
-						region="STATE_ZHEJIANG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
@@ -8488,19 +8316,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=3
-						region="STATE_ZHEJIANG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
@@ -8786,19 +8602,7 @@
 				reserves=1
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_very_high" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=1
-						region="STATE_JIANGSU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_motor_industry"
 				add_ownership={
@@ -9309,6 +9113,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:BEL"
+						levels=17
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:CHI={
@@ -11413,6 +11230,18 @@
 				activate_production_methods={ "pm_explosive_shells" "pm_assembly_lines_building_munition_plant" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_SHANDONG={
@@ -11657,19 +11486,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GBR"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -11716,6 +11533,19 @@
 				subsidized=no
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=14
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:GER={
@@ -11959,19 +11789,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GER"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -12250,30 +12068,7 @@
 				reserves=1
 				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=11
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:JAP"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -12563,19 +12358,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -12862,19 +12645,7 @@
 				reserves=1
 				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:E10"
-						levels=2
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_railway"
 				add_ownership={
@@ -13124,19 +12895,7 @@
 				reserves=1
 				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:Y44"
-						levels=2
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_railway"
 				add_ownership={
@@ -13427,17 +13186,7 @@
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "ox_driven_rollers_sugar" "pm_road_carts" "worker_exploitation_sugar" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DAI"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
@@ -13947,17 +13696,7 @@
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "worker_exploitation_tea" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DAI"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_port"
 				add_ownership={
@@ -14147,17 +13886,7 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DAI"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_dye_plantation"
 				add_ownership={
@@ -14416,17 +14145,7 @@
 				reserves=1
 				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "worker_exploitation_coffee" "pm_road_carts" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DAI"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_steel_mill"
 				add_ownership={
@@ -15273,6 +14992,19 @@
 				reserves=1
 				activate_production_methods={ "pm_steam_derricks" "pm_tanker_cars" }
 			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_HOKKAIDO={
@@ -15612,6 +15344,18 @@
 				activate_production_methods={ "pm_brine_electrolysis" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_TOHOKU={
@@ -16107,6 +15851,18 @@
 				activate_production_methods={ "pm_automobile_production" "pm_no_aeroplane_production" "pm_no_tank_production" "pm_assembly_lines_building_automotive_industry" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_KANTO={
@@ -16744,6 +16500,18 @@
 				activate_production_methods={ "pm_automobile_production" "pm_no_aeroplane_production" "pm_no_tank_production" "pm_assembly_lines_building_automotive_industry" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_HOKUSHINETSU={
@@ -16847,6 +16615,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 	}
@@ -16967,6 +16748,19 @@
 				reserves=1
 				activate_production_methods={ "pm_herring_meal_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_TOKAI={
@@ -17059,6 +16853,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_herring_meal_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 	}
@@ -17626,6 +17433,18 @@
 				activate_production_methods={ "pm_automobile_production" "pm_no_aeroplane_production" "pm_no_tank_production" "pm_assembly_lines_building_automotive_industry" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_KYUSHU={
@@ -18103,6 +17922,18 @@
 				activate_production_methods={ "pm_bolt_action_rifles" "pm_assembly_lines_building_arms_industry" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_RYUKYU_ISLANDS={
@@ -18302,6 +18133,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_bolt_action_rifles" "pm_assembly_lines_building_arms_industry" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 	}
@@ -18775,6 +18619,18 @@
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_very_high" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=12
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_SHIKOKU={
@@ -19178,6 +19034,18 @@
 				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_very_high" }
 			}
 
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_SEOUL={

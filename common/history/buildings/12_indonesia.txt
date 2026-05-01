@@ -1708,17 +1708,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:DEI"
-						levels=7
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 			create_building={
 				building="building_furniture_manufactory"
 				add_ownership={
@@ -3792,17 +3782,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:PPN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
+			
 		}
 	}
 	s:STATE_SUNDA_ISLANDS={
@@ -4976,6 +4956,19 @@
 				reserves=1
 				activate_production_methods={ "pm_metal_shipbuilding" }
 			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:GER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
 		}
 	}
 	s:STATE_EAST_MICRONESIA={
@@ -5058,6 +5051,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_fertilization_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_steam_threshers_building_rice_farm" }
+			}
+
+
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:GER"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 		region_state:USA={
