@@ -1251,279 +1251,216 @@
 			}
 		}
 	}
-	s:STATE_SINAI={
-		region_state:EGY={
-			create_building={
-				building="building_steel_mill"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=5
+	s:STATE_SINAI = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_steel_mill"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 5
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_bessemer_process" "pm_rotary_valve_engine_building_steel_mill" }
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=1
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_lead_mine"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=1
+			create_building = {
+				building = "building_lead_mine"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=3
+			create_building = {
+				building = "building_iron_mine"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 3
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
 			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=1
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=1
+			create_building = {
+				building = "building_power_plant"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
 			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=1
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			
-			create_building={
-				building="building_railway"
-				add_ownership={
-					country={
-						country="c:EGY"
-						levels=5
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 5
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
 			}
-			create_building={
-				building="building_artillery_foundry"
-				add_ownership={
-					building={
-						type="building_artillery_foundry"
-						country="c:EGY"
-						levels=2
-						region="STATE_SINAI"
-					}
-					building={
-						type="building_financial_district"
-						country="c:EGY"
-						levels=1
-						region="STATE_MIDDLE_EGYPT"
+			create_building = {
+				building = "building_artillery_foundry"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_smoothbores" "pm_rotary_valve_engine_building_arms_industry" }
 			}
-			create_building={
-				building="building_tooling_workshop"
-				add_ownership={
-					building={
-						type="building_tooling_workshop"
-						country="c:EGY"
-						levels=1
-						region="STATE_SINAI"
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_steel" "pm_rotary_valve_engine_building_tooling_workshop" }
 			}
-			create_building={
-				building="building_trade_center"
-				add_ownership={
-					building={
-						type="building_trade_center"
-						country="c:EGY"
-						levels=1
-						region="STATE_SINAI"
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = "c:EGY"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_high" }
 			}
 		}
-		region_state:GBR={
-			create_building={
-				building="building_steel_mill"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=5
+		region_state:GBR = {
+			create_building = {
+				building = "building_steel_mill"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 5
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_bessemer_process" "pm_rotary_valve_engine_building_steel_mill" }
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_lead_mine"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+			create_building = {
+				building = "building_lead_mine"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_rail_transport_mine" }
 			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=3
+			create_building = {
+				building = "building_iron_mine"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 3
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" }
 			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+			create_building = {
+				building = "building_power_plant"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
 			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			
-			create_building={
-				building="building_railway"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=5
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 5
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
 			}
-			create_building={
-				building="building_artillery_foundry"
-				add_ownership={
-					building={
-						type="building_artillery_foundry"
-						country="c:GBR"
-						levels=2
-						region="STATE_SINAI"
-					}
-					building={
-						type="building_financial_district"
-						country="c:GBR"
-						levels=1
-						region="STATE_MIDDLE_EGYPT"
+			create_building = {
+				building = "building_artillery_foundry"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_smoothbores" "pm_rotary_valve_engine_building_arms_industry" }
 			}
-			create_building={
-				building="building_tooling_workshop"
-				add_ownership={
-					building={
-						type="building_tooling_workshop"
-						country="c:GBR"
-						levels=1
-						region="STATE_SINAI"
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_steel" "pm_rotary_valve_engine_building_tooling_workshop" }
 			}
-			create_building={
-				building="building_trade_center"
-				add_ownership={
-					building={
-						type="building_trade_center"
-						country="c:GBR"
-						levels=1
-						region="STATE_SINAI"
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_high" }
+			}
+			create_building = {
+				building = "building_suez_canal"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
+					}
+				}
 			}
 		}
 	}
